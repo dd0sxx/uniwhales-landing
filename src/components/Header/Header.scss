@@ -1,0 +1,23 @@
+$main-bg-color: #252930;
+
+.header-container {
+	display: flex;
+	flex: 0 0 100%;
+	align-items: center;
+	max-width: 100%;
+	background: $main-bg-color;
+	box-shadow: 0 4px 26px rgba(0, 0, 0, 0.25);
+
+	.header-block {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		max-width: 945px;
+		height: 86px;
+		margin: 0 auto;
+
+		.main-button {
+			margin-left: auto;
+		}
+	}
+}

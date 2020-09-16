@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./assets/fonts/Open_Sans/OpenSans-SemiBold.ttf') format('.ttf');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./assets/fonts/Open_Sans/OpenSans-Bold.ttf') format('.ttf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('.ttf');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('./assets/fonts/Poppins/Poppins-Medium.ttf') format('.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('./assets/fonts/Poppins/Poppins-Bold.ttf') format('.ttf');
+	font-weight: bold;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	--main-transition: all 0.3s ease-in-out;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+h2 {
+	width: 100%;
+	margin-bottom: 80px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 46px;
+	line-height: 60px;
+	color: #a0dbed;
+	text-shadow: 0px 0px 8px rgba(160, 219, 237, 0.25);
+}
+
+h5 {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 23px;
+	line-height: 34px;
+	color: #5b90ff;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 140%;
+	color: #e7ebf2;
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	text-decoration-line: underline;
+	color: #a0dbed;
+}

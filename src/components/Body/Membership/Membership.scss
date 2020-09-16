@@ -1,0 +1,75 @@
+.membership {
+	width: 100%;
+	justify-content: center;
+	margin-top: 200px;
+	height: 738.5px;
+	background: url('../../../assets/images/membership.svg') no-repeat;
+	background-position: center;
+	background-position-y: -10px;
+
+	.membership-block {
+		z-index: 1;
+		display: flex;
+		justify-content: center;
+
+		&__item {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			width: 304px;
+			height: 486px;
+			padding: 35px;
+			background: linear-gradient(152.58deg, #3d4047 0.22%, #252930 100%);
+			border-radius: 16px;
+			margin-left: 32px;
+		}
+
+		&__headline {
+			h3 {
+				font-family: 'Poppins', sans-serif;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 35px;
+				line-height: 38px;
+				text-align: center;
+				color: #5b90ff;
+			}
+
+			h5 {
+				font-family: Poppins;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 17px;
+				line-height: 25px;
+				text-align: center;
+				color: #5b90ff;
+			}
+		}
+
+		&__text {
+			margin-top: 20px;
+			text-align: center;
+
+			p {
+				font-family: 'Open Sans', sans-serif;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 18px;
+				line-height: 25px;
+				text-align: center;
+				color: #e7ebf2;
+			}
+
+			p + p {
+				margin-top: 16px;
+			}
+		}
+
+		&__buttons {
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			margin-top: auto;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+.image-link-block {
+	margin-left:  48px;
+
+	&__item {
+		& + & {
+			margin-left: 24px;
+		}
+	}
+}

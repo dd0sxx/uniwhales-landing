@@ -1,0 +1,23 @@
+.navigation-block {
+	display: flex;
+	margin-left: auto;
+	&__item {
+		a {
+			color: #fff;
+			font-family: 'Poppins', sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 17px;
+			text-decoration: none;
+			transition: all 0.15s ease;
+
+			&.unhover {
+				color: #94979e;
+			}
+		}
+
+		& + & {
+			margin-left: 24px;
+		}
+	}
+}

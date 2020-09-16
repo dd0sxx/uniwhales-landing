@@ -1,0 +1,13 @@
+.body-block {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background: #252930;
+
+	.body-container {
+		display: flex;
+		width: 100%;
+		max-width: 945px;
+		margin: 0 auto;
+	}
+}
