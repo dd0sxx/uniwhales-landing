@@ -17,7 +17,7 @@ const Explore = () => {
 					<p>
 						UniWhales helps you to&nbsp;keep track of&nbsp;latest BUY and SELL
 						transactions on&nbsp;Uniswap with a&nbsp;high volume, giving you
-						an&nbsp;insides where the capital flows to.
+						&nbsp;insides where the capital flows to.
 					</p>
 					<Buttons text={'LAUNCH APP'} />
 				</div>

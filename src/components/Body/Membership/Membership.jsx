@@ -13,15 +13,15 @@ const Membership = () => (
 				text={[
 					'Adjustable minimum and maximum volume thresholds',
 					'Explore whale: find all transaction for a specific address',
-					'Find transaction for a specific token',
+					'Find transactions for a specific token',
 				]}
 			/>
 			<MembershipItem
 				headline={'Free'}
 				miniHeadline={'hold -'}
 				text={[
-					'Real-time dashboard with latest 100 transaction',
-					'Filter by buy or sell transactions',
+					'Real-time data with latest 100 transaction',
+					'Filter by Buy or Sell transactions',
 					'Filter by historical data',
 				]}
 				button={'border'}

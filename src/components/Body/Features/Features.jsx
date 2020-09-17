@@ -30,7 +30,7 @@ const Features = () => {
 					<ImageBlock
 						image={telegramm}
 						headline={'Telegram channel'}
-						text={'Follow channel on telegram: '}
+						text={'Follow alert channel on Telegram: '}
 						link={'https://t.me/uniwhales'}
 					/>
 				</div>
