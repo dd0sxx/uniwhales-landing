@@ -16,7 +16,7 @@ const Roadmap = () => {
 						<div className="text-block">
 							<p>Alert telegram channel launch - completed</p>
 							<p>Beta launch - completed</p>
-							<p>Token launch - completed</p>
+							<p>Token launch</p>
 						</div>
 					</div>
 					<div className="roadmap-block__period">
@@ -26,7 +26,6 @@ const Roadmap = () => {
 						<div className="text-block">
 							<p>Feedback analysis</p>
 							<p>New features for web platform</p>
-							<p>Mid cap gems alerts</p>
 							<p>Release of 1.0 app version</p>
 						</div>
 					</div>

@@ -17,7 +17,7 @@ const Features = () => {
 						image={dashbord}
 						headline={'Real Time Dashboard'}
 						text={
-							'Real-time data that will make it easier to track latest buy/sell transactions on Uniswap with a high volume.'
+							'Real-time data will make it easier to track latest buy/sell transactions on Uniswap with a high volume.'
 						}
 					/>
 					<ImageBlock
@@ -30,7 +30,7 @@ const Features = () => {
 					<ImageBlock
 						image={telegramm}
 						headline={'Telegram channel'}
-						text={'Follow channel on telegram: '}
+						text={'Follow alert channel: '}
 						link={'https://t.me/uniwhales'}
 					/>
 				</div>
