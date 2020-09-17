@@ -7,8 +7,11 @@
 @include max-width(800px) {
 	.hamburger-button {
 		display: flex;
-		width: 18px;
-		height: 10px;
+		align-items: center;
+		justify-content: center;
+		width: 25px;
+		height: 40px;
+		cursor: pointer;
 		i {
 			width: 18px;
 			height: 10px;
