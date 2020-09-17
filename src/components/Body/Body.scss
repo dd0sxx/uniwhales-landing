@@ -1,3 +1,5 @@
+@import '../../assets/styles/styles.scss';
+
 .body-block {
 	display: flex;
 	flex-wrap: wrap;
@@ -6,8 +8,13 @@
 
 	.body-container {
 		display: flex;
+		flex-wrap: wrap;
 		width: 100%;
 		max-width: 945px;
 		margin: 0 auto;
+
+		@include max-width(768px) {
+			padding: 0 25px;
+		}
 	}
 }

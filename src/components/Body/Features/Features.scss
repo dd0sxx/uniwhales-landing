@@ -1,3 +1,5 @@
+@import '../../../assets/styles/styles.scss';
+
 $font-poppin: 'Poppins', sans-serif;
 $font-opensans: 'Open Sans', sans-serif;
 
@@ -26,6 +28,12 @@ $feature-text-color: #e7ebf2;
 			align-items: flex-start;
 			flex: 0 0 27%;
 			max-width: 27%;
+
+			@include max-width(768px) {
+				flex: 0 0 100%;
+				max-width: 100%;
+				margin-bottom: 40px;
+			}
 		}
 
 		&__image {
@@ -48,10 +56,22 @@ $feature-text-color: #e7ebf2;
 		}
 
 		&__text {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
 			margin-top: 18px;
 
 			p {
+				width: 100%;
 				text-align: center;
+			}
+
+			@include max-width(768px) {
+				a {
+					width: 100%;
+					margin-top: 10px;
+					text-align: center;
+				}
 			}
 		}
 	}

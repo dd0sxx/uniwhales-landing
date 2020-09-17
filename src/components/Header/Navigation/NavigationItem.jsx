@@ -1,7 +1,15 @@
 import React from 'react'
 import cn from 'classnames'
 
-const Navigation = ({ link, text, index, id, hover }) => {
+const Navigation = ({
+	link,
+	text,
+	index,
+	id,
+	hover,
+	toggleMenu = false,
+	menuState = false,
+}) => {
 	const hoverItem = () => {
 		hover(index)
 	}
@@ -13,6 +21,7 @@ const Navigation = ({ link, text, index, id, hover }) => {
 				className={cn('link', { unhover: index !== id && id !== -1 })}
 				onMouseEnter={() => hoverItem()}
 				onMouseLeave={() => hover(-1)}
+				onClick={() => toggleMenu(!menuState)}
 			>
 				{text}
 			</a>

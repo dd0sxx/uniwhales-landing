@@ -8,12 +8,12 @@ import './assets/fonts/Open_Sans/OpenSans-Regular.ttf'
 import './assets/fonts/Open_Sans/OpenSans-SemiBold.ttf'
 import './assets/fonts/Open_Sans/OpenSans-Bold.ttf'
 
-import './App.css'
+import './App.scss'
 import App from './App'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
+	document.getElementById('root')
 )

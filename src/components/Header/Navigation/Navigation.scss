@@ -1,6 +1,19 @@
+@import '../../../assets/styles/styles.scss';
+
+.logo {
+	@include max-width(800px) {
+		margin: 0 auto;
+	}
+}
+
 .navigation-block {
 	display: flex;
 	margin-left: auto;
+
+	@include max-width(800px) {
+		display: none;
+	}
+
 	&__item {
 		a {
 			color: #fff;
@@ -19,5 +32,17 @@
 		& + & {
 			margin-left: 24px;
 		}
+	}
+}
+
+.image-link-block {
+	@include max-width(800px) {
+		display: none;
+	}
+}
+
+.header-block .main-button {
+	@include max-width(800px) {
+		display: none;
 	}
 }

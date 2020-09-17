@@ -1,0 +1,70 @@
+@import '../../../assets/styles/styles.scss';
+
+.burger-menu {
+	display: none;
+}
+
+@include max-width(800px) {
+	.hamburger-button {
+		display: flex;
+		width: 18px;
+		height: 10px;
+		i {
+			width: 18px;
+			height: 10px;
+			background: url('../../../assets/images/burger.svg');
+		}
+	}
+
+	.burger-menu {
+		display: block;
+		position: absolute;
+		width: 100%;
+		top: 86px;
+		height: 0;
+		text-align: center;
+		color: #fff;
+		transition: all 0.5s ease-in-out;
+		background: #252930;
+		z-index: 9;
+
+		.navigation-block__item {
+			width: 100%;
+		}
+
+		.image-link-block {
+			display: flex;
+			justify-content: center;
+			margin-top: 32px;
+			margin-left: 0;
+		}
+
+		.buttons-block {
+			width: 100%;
+			margin-top: 32px;
+
+			.main-button {
+				margin: 0 auto;
+			}
+		}
+
+		.navigation-block__item + .navigation-block__item {
+			margin-top: 32px;
+			margin-left: 0;
+		}
+
+		& div {
+			opacity: 0;
+			transition: all 0.3s ease-in-out;
+		}
+
+		&.active {
+			height: calc(100vh - 86px);
+			padding-top: 32px;
+
+			& div {
+				opacity: 1;
+			}
+		}
+	}
+}

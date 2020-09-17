@@ -1,3 +1,5 @@
+@import '../../../assets/styles/styles.scss';
+
 .membership {
 	width: 100%;
 	justify-content: center;
@@ -6,6 +8,11 @@
 	background: url('../../../assets/images/membership.svg') no-repeat;
 	background-position: center;
 	background-position-y: -10px;
+
+	@include max-width(768px) {
+		margin-top: 100px;
+		height: auto;
+	}
 
 	.membership-block {
 		z-index: 1;
@@ -21,7 +28,18 @@
 			padding: 35px;
 			background: linear-gradient(152.58deg, #3d4047 0.22%, #252930 100%);
 			border-radius: 16px;
+		}
+
+		.membership-block__item + .membership-block__item {
 			margin-left: 32px;
+
+			@include max-width(768px) {
+				margin-left: 0;
+			}
+
+			@include max-width(680px) {
+				margin: 30px 15px;
+			}
 		}
 
 		&__headline {
