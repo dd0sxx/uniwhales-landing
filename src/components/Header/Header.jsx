@@ -29,16 +29,16 @@ const Header = ({ logo }) => {
 							hover={setItemId}
 						/>
 						<NavigationItem
-							link={'#token'}
-							text={'Token'}
-							index={1}
+							link={'#membership'}
+							text={'Membership'}
+							index={2}
 							id={itemId}
 							hover={setItemId}
 						/>
 						<NavigationItem
-							link={'#membership'}
-							text={'Membership'}
-							index={2}
+							link={'#token'}
+							text={'Token'}
+							index={1}
 							id={itemId}
 							hover={setItemId}
 						/>
