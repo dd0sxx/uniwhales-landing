@@ -1,3 +1,5 @@
+@import '../../assets/styles/styles.scss';
+
 .footer-block {
 	display: flex;
 	width: 100%;
@@ -13,7 +15,23 @@
 		width: 100%;
 		margin: 42px auto;
 
+		@include max-width(768px) {
+			padding: 0 25px;
+		}
+
+		@include max-width(600px) {
+			justify-content: center;
+		}
+
 		.contacts-block {
+			@include max-width(600px) {
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				width: 100%;
+				margin-bottom: 10px;
+			}
+
 			span {
 				display: flex;
 				margin-bottom: 7px;
@@ -23,6 +41,11 @@
 				font-size: 18px;
 				line-height: 25px;
 				color: #94979e;
+
+				@include max-width(600px) {
+					width: 100%;
+					justify-content: center;
+				}
 			}
 		}
 
@@ -30,6 +53,13 @@
 			display: flex;
 			flex-wrap: wrap;
 			width: 44px;
+
+			@include max-width(600px) {
+				width: 100%;
+				justify-content: center;
+				margin-bottom: 20px;
+			}
+
 			a {
 				width: 100%;
 				font-family: 'Open Sans';
@@ -40,6 +70,10 @@
 				text-decoration: none;
 				text-transform: uppercase;
 				color: #94979e;
+
+				@include max-width(600px) {
+					text-align: center;
+				}
 			}
 
 			a + a {
@@ -52,8 +86,21 @@
 			flex-wrap: wrap;
 			justify-content: flex-end;
 			width: 262px;
+
+			@include max-width(600px) {
+				width: 100%;
+				justify-content: center;
+			}
+
 			.image-link-block {
+				display: flex;
 				margin: 0 0 45px 0;
+
+				@include max-width(600px) {
+					justify-content: center;
+					width: 100%;
+					margin: 0 0 15px 0;
+				}
 			}
 		}
 	}
