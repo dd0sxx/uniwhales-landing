@@ -19,11 +19,11 @@ $main-bg-color: #252930;
 		max-width: 945px;
 		height: 86px;
 		margin: 0 auto;
-		box-shadow: 0 4px 26px rgba(0, 0, 0, 0.25);
-		background: #252930;
 		z-index: 10;
 
 		@include max-width(800px) {
+			box-shadow: 0 4px 26px rgba(0, 0, 0, 0.25);
+			background: #252930;
 			padding: 0 25px;
 			justify-content: space-between;
 		}
