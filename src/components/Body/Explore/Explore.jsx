@@ -1,6 +1,6 @@
 import React from 'react'
 import Buttons from '../../Buttons/Buttons'
-import image from '../../../assets/images/explore.svg'
+import image from '../../../assets/images/Desktop.svg'
 
 import './Explore.scss'
 

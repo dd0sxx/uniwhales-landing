@@ -60,7 +60,6 @@ h2 {
 	font-size: 46px;
 	line-height: 60px;
 	color: #a0dbed;
-	text-shadow: 0px 0px 8px rgba(160, 219, 237, 0.25);
 
 	@include max-width(768px) {
 		font-size: 36px;

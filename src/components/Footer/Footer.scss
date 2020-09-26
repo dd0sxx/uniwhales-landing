@@ -52,6 +52,7 @@
 		.links-block {
 			display: flex;
 			flex-wrap: wrap;
+			visibility: hidden;
 			width: 44px;
 
 			@include max-width(600px) {

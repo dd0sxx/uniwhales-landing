@@ -13,7 +13,7 @@ const TokenInfo = () => {
 				<div className="list-block">
 					{tableValue.map((item, index) => {
 						return (
-							<div className="list-block__item" key={index}>
+							<div className={`list-block__item block-${index}`} key={index}>
 								<div className="title">
 									<p className="bold">{item.title}:</p>
 								</div>
