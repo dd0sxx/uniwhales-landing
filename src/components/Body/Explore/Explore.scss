@@ -44,8 +44,16 @@ $text-color: #e7ebf2;
 			z-index: -1;
 			width: 592px;
 			height: 592px;
-			background: url('../../../assets/images/desktop-background.svg');
+			background: url('../../../assets/images/desktop-background.svg') no-repeat;
 			content: '';
+
+			@include max-width(992px) {
+				width: 100%;
+				left: 0;
+				background: url('../../../assets/images/desktop-background.svg')
+					no-repeat;
+				background-position: center;
+			}
 		}
 
 		@include max-width(992px) {
