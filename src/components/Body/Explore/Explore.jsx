@@ -19,7 +19,7 @@ const Explore = () => {
 						transactions on&nbsp;Uniswap with a&nbsp;high volume, giving you
 						insides where the capital flows to.
 					</p>
-					<Buttons text={'LAUNCH APP'} />
+					<Buttons text={'LAUNCH APP'} link={'https://app.uniwhales.io/'} />
 				</div>
 			</div>
 		</div>

@@ -80,7 +80,7 @@ const Header = ({ logo }) => {
 							link={'https://twitter.com/uniwhalesio'}
 						/>
 					</ImageBlock>
-					<Buttons text={'launch app'} />
+					<Buttons text={'launch app'} link={'https://app.uniwhales.io/'} />
 				</div>
 				<div className={cn('burger-menu', { active: hamburgerState })}>
 					<NavigationItem
@@ -128,7 +128,7 @@ const Header = ({ logo }) => {
 						/>
 					</ImageBlock>
 					<div className="buttons-block">
-						<Buttons text={'launch app'} />
+						<Buttons text={'launch app'} link={'https://app.uniwhales.io/'} />
 					</div>
 				</div>
 			</div>
