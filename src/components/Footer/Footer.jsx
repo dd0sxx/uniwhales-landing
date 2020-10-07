@@ -16,11 +16,11 @@ const Footer = () => {
 					<span>Contact:</span>
 					<p>info@uniwhales.io</p>
 				</div>
-				<div className="links-block">
+				{/* <div className="links-block">
 					<a href="/">Link 1</a>
 					<a href="/">Link 2</a>
 					<a href="/">Link 3</a>
-				</div>
+				</div> */}
 				<div className="social-copyright">
 					<ImageBlock>
 						<ImageLink image={M} link={'https://medium.com/@uniwhales'} />

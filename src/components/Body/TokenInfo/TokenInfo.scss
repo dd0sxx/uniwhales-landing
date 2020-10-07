@@ -130,14 +130,15 @@
 	margin-top: 120px;
 	text-align: center;
 	background: url('../../../assets/images/tokeninfo.svg') no-repeat;
+	border-radius: 4px;
 
 	@include max-width(768px) {
-		width: 100%;
 		order: 3;
 	}
 
 	p {
 		width: 698px;
+		padding: 0 10px;
 		font-weight: 500;
 		font-size: 19px;
 		line-height: 28px;

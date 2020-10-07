@@ -1,0 +1,48 @@
+.page-not-found {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: calc(100vh - 269px);
+
+	& > .page-not-found-block {
+		max-width: 472px;
+		padding: 0 15px;
+
+		& > .image-block {
+			margin-bottom: 40px;
+			text-align: center;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		& > .text-block {
+			text-align: center;
+		}
+
+		& > .text-block .title {
+			font-size: 35px;
+			line-height: 109%;
+			margin-bottom: 16px;
+		}
+
+		& > .text-block .text {
+			font-size: 18px;
+			line-height: 140%;
+		}
+
+		& > .button-block {
+			margin-top: 40px;
+
+			button {
+				margin: auto;
+			}
+
+			a {
+				padding: 16px 49px;
+			}
+		}
+	}
+}
