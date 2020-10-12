@@ -14,8 +14,8 @@ const Roadmap = () => {
 							<h5>2020, Q3</h5>
 						</div>
 						<div className="text-block">
-							<p>Alert telegram channel launch - completed</p>
-							<p>Beta launch - completed</p>
+							<p>Alert telegram bot - completed</p>
+							<p>Alpha launch - completed</p>
 							<p>Token launch</p>
 						</div>
 					</div>
@@ -24,9 +24,10 @@ const Roadmap = () => {
 							<h5>2020, Q4</h5>
 						</div>
 						<div className="text-block">
-							<p>Feedback analysis</p>
-							<p>New features for web platform</p>
-							<p>Release of 1.0 app version</p>
+							<p>Premium telegram channels</p>
+							<p>DAO Launch</p>
+							<p>New features based on community needs</p>
+							<p>Beta release</p>
 						</div>
 					</div>
 					<div className="roadmap-block__period">
@@ -34,7 +35,7 @@ const Roadmap = () => {
 							<h5>2021, Q1</h5>
 						</div>
 						<div className="text-block">
-							<p>TODO</p>
+							<p>Feedback analysis</p>
 						</div>
 					</div>
 				</div>
