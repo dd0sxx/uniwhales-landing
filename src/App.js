@@ -1,23 +1,25 @@
 import React from 'react'
-import logo from './assets/images/logo.svg'
-import Header from '../src/components/Header/Header'
-import Body from '../src/components/Body/Body'
-import Footer from '../src/components/Footer/Footer'
+import IndexPage from './Pages/index.js'
+import PageNotFound from './Pages/404.js'
+import { Route, Switch } from "react-router-dom";
 
-import { withRouter } from 'react-router-dom'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss'
 import './assets/styles/styles.scss'
 
-const App = ({ location }) => {
-	console.log(location.pathname)
+const App = () => {
 	return (
-		<div className="App">
-			<Header logo={logo} />
-			<Body location={location.pathname} />
-			<Footer />
-		</div>
+		<>
+			<Switch>
+				<Route exact path="/">
+					<IndexPage />
+				</Route>
+				<Route>
+					<PageNotFound />
+				</Route>
+			</Switch>
+		</>
 	)
 }
 
-export default withRouter(App)
+export default App

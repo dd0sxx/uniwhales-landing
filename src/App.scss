@@ -1,8 +1,6 @@
-@import '../src/assets/styles/styles.scss';
-
 @font-face {
 	font-family: 'Open Sans';
-	src: url('./assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+	src: url('./assets/fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
 	font-weight: normal;
 }
 
@@ -19,77 +17,29 @@
 }
 
 @font-face {
-	font-family: 'Poppins';
-	src: url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('.ttf');
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: 'Poppins';
-	src: url('./assets/fonts/Poppins/Poppins-Medium.ttf') format('.ttf');
-	font-weight: 500;
-}
-
-@font-face {
-	font-family: 'Poppins';
-	src: url('./assets/fonts/Poppins/Poppins-Bold.ttf') format('.ttf');
+	font-family: 'League Spartan';
+	src: url('./assets/fonts/Open_Sans/OpenSans-Bold.ttf') format('.ttf');
 	font-weight: bold;
 }
 
-* {
+body {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 	scroll-behavior: smooth;
-	--main-transition: all 0.3s ease-in-out;
+	font-family: 'Open Sans';
 }
 
-.App {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-
-h2 {
+.container {
 	width: 100%;
-	margin-bottom: 80px;
-	text-align: center;
-	font-family: 'Poppins', sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 46px;
-	line-height: 60px;
-	color: #a0dbed;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1140px;
+}
 
-	@include max-width(768px) {
-		font-size: 36px;
-		line-height: 50px;
+@media (max-width: 992px) {
+	.container {
+		max-width: 500px;
 	}
-}
-
-h5 {
-	font-family: 'Poppins', sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 23px;
-	line-height: 34px;
-	color: #5b90ff;
-}
-
-p {
-	font-family: 'Open Sans', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 140%;
-	color: #e7ebf2;
-}
-
-a {
-	font-family: 'Open Sans', sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 18px;
-	text-decoration-line: underline;
-	color: #a0dbed;
 }

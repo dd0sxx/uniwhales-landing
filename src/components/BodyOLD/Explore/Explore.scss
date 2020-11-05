@@ -12,6 +12,7 @@ $text-color: #e7ebf2;
 	height: 747px;
 	background: linear-gradient(180deg, #16191d 0%, #252930 100%);
 	z-index: 2;
+	
 
 	@include max-width(992px) {
 		margin-bottom: 150px;
@@ -90,21 +91,7 @@ $text-color: #e7ebf2;
 				width: 100%;
 			}
 
-			h2 {
-				margin-bottom: 18px;
-				color: $headline-color;
-				text-align: left;
-				font-family: 'Poppins', sans-serif;
-				font-style: normal;
-				font-weight: 500;
-				font-size: 46px;
-				line-height: 60px;
-
-				@include max-width(992px) {
-					width: 100%;
-					text-align: center;
-				}
-			}
+			
 
 			p {
 				margin-bottom: 40px;
