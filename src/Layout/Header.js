@@ -46,7 +46,7 @@ const Header = () => {
                 <Nav>
                     <img className="logo" src={Logo} alt="Uniwhales Logo"/>
                     <div>
-                        <TelegramLink href="#">
+                        <TelegramLink href="https://t.me/uniwhales">
                             <Telegram />
                         </TelegramLink>
                         <Button text="Launch App" href="https://app.uniwhales.io/" />
