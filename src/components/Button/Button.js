@@ -20,6 +20,10 @@ export const ButtonWrapper = styled.a`
       background: ${palette.light_blue};
       padding: 10px 35px;
   }
+  ${palette.md} {
+    width: 100%;
+    text-align: center;
+    }
 `;
 
 export const ButtonWrapperInverse = styled.a`
@@ -28,7 +32,7 @@ export const ButtonWrapperInverse = styled.a`
   font-size: 16px;
   font-weight: 600;
   margin: 0;
-  padding: 10px 30px;
+  padding: 10px 40px;
   border: 2px solid ${palette.light_blue};
   border-radius: 100px;
   cursor: pointer;
@@ -38,21 +42,45 @@ export const ButtonWrapperInverse = styled.a`
   :hover {
       text-decoration: none;
       color: ${palette.white};
-      padding: 10px 40px;
+      padding: 10px 50px;
   }
 `;
 
-const Button = ({ text, href, inverse }) => {
+export const ButtonWrapperComingSoon = styled.div`
+  color: ${palette.white};
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px 30px;
+  border: 2px solid ${palette.gray};
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  display: inline-block;
+  background: ${palette.gray};
+  :hover {
+      text-decoration: none;  
+  }
+`;
+
+const Button = ({ text, href, inverse, disable }) => {
     return (
         <>
-        {!inverse ? (
+        {!inverse && !disable && (
             <ButtonWrapper href={href}>
                 {text}
             </ButtonWrapper>
-        ) : (
+        )} 
+        {inverse && (
             <ButtonWrapperInverse href={href}>
                 {text}
             </ButtonWrapperInverse>
+        )}
+        {disable && (
+            <ButtonWrapperComingSoon>
+                {text}
+            </ButtonWrapperComingSoon>
         )}
         </>
 	)

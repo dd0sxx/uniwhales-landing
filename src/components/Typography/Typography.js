@@ -7,6 +7,9 @@ export const H1 = styled.h1`
   font-size: 60px;
   margin: 0 0 30px 0;
   padding: 0;
+  ${palette.md} {
+    font-size: 30px;
+    }
 `;
 
 export const H2 = styled.h2`
@@ -17,6 +20,9 @@ export const H2 = styled.h2`
   padding: 0;
   margin-bottom: ${props => props.nomarginBottom ? "0" : "70px"};
   text-align: center;
+  ${palette.md} {
+    font-size: 25px;
+    }
 `;
 
 export const H3 = styled.h3`
@@ -25,6 +31,9 @@ export const H3 = styled.h3`
   font-size: 26px;
   margin: 0 0 5px 0;
   padding: 0;
+  ${palette.md} {
+    font-size: 20px;
+    }
 `;
 
 export const Paragraph = styled.p`
@@ -36,6 +45,9 @@ export const Paragraph = styled.p`
   line-height: 1.9em;
   font-weight: normal;
   margin-bottom: ${props => props.marginBottom ? "50px" : "0px"};
+  ${palette.md} {
+    font-size: 16px;
+    }
 `;
 
 

@@ -20,6 +20,9 @@ const WaveSection = styled.div`
   padding: 0;
   img {
       width: 100%;
+        ${palette.md} {
+        width: 1000px;
+        }
   }
 `;
 
@@ -27,15 +30,26 @@ const InnerWrapper = styled.div`
   display: flex;
   align-items: center;
   flex-direction: row;
+    ${palette.md} {
+      flex-direction: column;
+      }
 `;
 
 const TextSection = styled.div`
   width: 50%;
+  ${palette.md} {
+    width: 100%;
+    }
 `;
 
 const ImageSection = styled.div`
   width: 50%;
   padding-left: 40px;
+  ${palette.md} {
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 40px;
+    }
   img {
       width: 100%;
   }
@@ -44,7 +58,7 @@ const ImageSection = styled.div`
 const Hero = () => {
     return (
         <>
-        <HeroWrapper>
+        <HeroWrapper id="about">
             <Container>
                 <InnerWrapper>
                     <TextSection>

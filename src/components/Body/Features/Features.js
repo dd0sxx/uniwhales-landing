@@ -11,13 +11,16 @@ import Address from '../../../assets/images/address.png'
 const FeaturesWrapper = styled.div`
   background: ${palette.white};
   width: 100%;
-  padding: 100px 0;
+  padding: 50px 0 30px;
 `;
 
 const InnerWrapper = styled.div`
   display: flex;
   align-items: top;
   flex-direction: row;
+  ${palette.md} {
+    flex-direction: column;
+    }
 `;
 
 const Col = styled.div`
@@ -27,6 +30,9 @@ const Col = styled.div`
   img {
       height: 70px;
       margin-bottom: 30px;
+      ${palette.md} {
+        height: 40px;
+    }
   }
   .premium {
       background: ${palette.light_blue};
@@ -37,12 +43,20 @@ const Col = styled.div`
       display: inline-block;
       padding: 2px 30px;
       margin-top: 20px;
+      ${palette.md} {
+        font-size: 12px;
+        padding: 2px 20px;
+    }
   }
+  ${palette.md} {
+    width: 100%;
+    margin: 40px 0;
+    }
 `;
 
 const Features = () => {
     return (
-        <FeaturesWrapper>
+        <FeaturesWrapper id="features">
             <Container>
                 <InnerWrapper>
                     <Col>

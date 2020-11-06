@@ -22,24 +22,14 @@
 	font-weight: bold;
 }
 
+html {
+	scroll-behavior: smooth;
+  }
+
 body {
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 1140px;
-}
-
-@media (max-width: 992px) {
-	.container {
-		max-width: 500px;
-	}
-}

@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import Logo from '../assets/images/logo.svg'
 import {ReactComponent as Telegram} from '../assets/images/telegram.svg'
-import Button from '../components/Button/Button'
 import Container from '../components/Container/Container.js'
 import * as palette from '../palette.js';
 
@@ -22,6 +21,26 @@ const Nav = styled.div`
   padding: 20px 0;
   .logo {
       height: 50px;
+  }
+`;
+
+const Button = styled.a`
+  color: ${palette.off_white};
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px 30px;
+  border: 2px solid ${palette.light_blue};
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  display: inline-block;
+  :hover {
+      text-decoration: none;
+      color: ${palette.white};
+      background: ${palette.light_blue};
+      padding: 10px 35px;
   }
 `;
 
@@ -49,7 +68,7 @@ const Header = () => {
                         <TelegramLink href="https://t.me/uniwhales">
                             <Telegram />
                         </TelegramLink>
-                        <Button text="Launch App" href="https://app.uniwhales.io/" />
+                        <Button href="https://app.uniwhales.io/">Launch App</Button>
                     </div>
                 </Nav>
             </Container>

@@ -17,19 +17,21 @@ const InnerWrapper = styled.div`
   display: flex;
   align-items: top;
   flex-direction: row;
+  ${palette.md} {
+    flex-direction: column;
+    }
 `;
 
 const Card = styled.div`
   width: 33.33333%;
-  margin: 0 20px;
+  margin: 0 10px;
   text-align: center;
-  -webkit-box-shadow: 0px 0px 21px 5px rgba(0,0,0,0.17); 
-  box-shadow: 0px 0px 21px 5px rgba(0,0,0,0.17);
+  -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.17); 
+  box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.17);
   border-radius: 20px;
   color: ${palette.dark_blue};
   display: flex;
   flex-direction: column;
-  border: ${props => props.outline ? "3px solid" + palette.light_blue : "none"};
   padding-bottom: 30px;
 
   h2 {
@@ -39,41 +41,47 @@ const Card = styled.div`
   h3 {
       text-align: center;
       width: 100%;
-      background: ${palette.light_gray};
+      background: ${palette.light_blue};
       padding: 25px 0 15px;
       margin-bottom: 0;
+      color: ${palette.white};
   }
 
   .buttonbottom {
     margin-top:auto;
   }
 
+  ${palette.md} {
+    width: 100%;
+    margin: 10px 0;
+    }
+
 `;
 
 const List = styled.div`
   width: 100%;
-  padding: 40px;
+  padding: 40px 25px;
   text-align: center;
 `;
 
 const ListItem = styled.div`
   width: 100%;
   display: flex;
-  font-size: 18px;
-  margin-bottom: 30px;
+  font-size: 16px;
+  margin-bottom: 20px;
   text-align: left;
 
   img {
-      width: 18px;
-      height: 16px;
-      margin: 5px 8px 0 0;
+      width: 14px;
+      height: 12px;
+      margin: 8px 8px 0 0;
   }
 
 `;
 
 const Levels = () => {
     return (
-        <LevelsWrapper>
+        <LevelsWrapper id="access">
             <Container>
                 <H2>Access Levels</H2>
                 <InnerWrapper>
@@ -87,32 +95,40 @@ const Levels = () => {
                             </ListItem>
                             <ListItem>
                                 <img src={Checkmark} alt="checkmark" />
-                                Filter by max and min USD amounts
+                                Filter by USD amounts (50k min)
                             </ListItem>
                             <ListItem>
                                 <img src={Checkmark} alt="checkmark" />
-                                Filter by historical data
+                                Access to main Telegram channel
                             </ListItem>
                         </List>
                         <div className="buttonbottom">
                             <Button inverse text="Open App" href="https://app.uniwhales.io/" />
                         </div>
                     </Card>
-                    <Card outline>
-                        <H2>Premium</H2>
+                    <Card>
+                        <H2>Pro</H2>
                         <H3>Hold 5k UWL</H3>
                         <List>
                             <ListItem>
                                 <img src={Checkmark} alt="checkmark" />
-                                Filter by address
+                                Adjustable txn threshold (min. 10k)
                             </ListItem>
                             <ListItem>
                                 <img src={Checkmark} alt="checkmark" />
-                                Filter by token
+                                Token name and address filters
                             </ListItem>
                             <ListItem>
                                 <img src={Checkmark} alt="checkmark" />
-                                Access to the premium telegram channels
+                                In-depth whale analysis (profitability, top trades, position sizing)
+                            </ListItem>
+                            <ListItem>
+                                <img src={Checkmark} alt="checkmark" />
+                                Robust historical data
+                            </ListItem>
+                            <ListItem>
+                                <img src={Checkmark} alt="checkmark" />
+                                Access to Pro Telegram channels
                             </ListItem>
                         </List>
                         <div className="buttonbottom">
@@ -120,21 +136,26 @@ const Levels = () => {
                         </div>
                     </Card>
                     <Card>
-                        <H2>Basic</H2>
-                        <H3>FREE</H3>
+                        <H2>Whale</H2>
+                        <H3>Coming soon</H3>
                         <List>
                             <ListItem>
-                                <img src={Checkmark} alt="checkmark" />
-                                Real-time data with latest 100 transactions
+                                <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
+                                Everything in Pro plus more data sorting and customized signals based on DAO group feedback
                             </ListItem>
-                            <ListItem>
-                                <img src={Checkmark} alt="checkmark" />
-                                Filter by max and min USD amounts
+                            <ListItem style={{filter: 'blur(3px)'}}>
+                                <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
+                                Advanced wallet tracking
                             </ListItem>
-                            <ListItem>
-                                <img src={Checkmark} alt="checkmark" />
-                                Filter by historical data
+                            <ListItem style={{filter: 'blur(3px)'}}>
+                                <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
+                                Highly customizable analytics
                             </ListItem>
+                            <ListItem style={{filter: 'blur(3px)'}}>
+                                <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
+                                Integrated trading platform
+                            </ListItem>
+                            
                         </List>
                         <div className="buttonbottom">
                             <Button inverse text="Get UWL" href="#" />
