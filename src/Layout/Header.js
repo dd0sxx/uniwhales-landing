@@ -68,7 +68,7 @@ const Header = () => {
                         <TelegramLink href="https://t.me/uniwhales">
                             <Telegram />
                         </TelegramLink>
-                        <Button href="https://app.uniwhales.io/">Launch App</Button>
+                        <Button href="#">Launch App</Button>
                     </div>
                 </Nav>
             </Container>

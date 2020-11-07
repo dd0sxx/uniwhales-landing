@@ -1,13 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import Logo from '../assets/images/logo.svg'
 import Container from '../components/Container/Container.js'
 import * as palette from '../palette.js';
 import { H3, Paragraph } from '../components/Typography/Typography.js';
 import Button from '../components/Button/Button'
-import {ReactComponent as Medium} from '../assets/images/m-logo.svg'
-import {ReactComponent as Twitter} from '../assets/images/twitter.svg'
-import {ReactComponent as Telegram} from '../assets/images/telegram.svg'
 
 
 const Wrapper = styled.div`
@@ -87,7 +83,7 @@ const Footer = () => {
                         <a className="footerlink" href="mailto:info@uniwhales.io">Contact</a>
                     </div>
                     <div className="linkcol">
-                        <Button text="Launch App" href="https://app.uniwhales.io/" />
+                        <Button text="Launch App" href="#" />
                     </div>
                 </FooterCtn>
                 <Paragraph inverse>©2020 UniWhales.io All rights reserved</Paragraph>

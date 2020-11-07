@@ -64,7 +64,7 @@ const Hero = () => {
                     <TextSection>
                         <H1 inverse >High volume Uniswap trades at a glance</H1>
                         <Paragraph inverse marginBottom >Uniwhales helps you track large volume transactions on Uniswap. See pumps, dumps, and interesting whale moves in real-time giving you a critical trading edge in this fast moving marketplace.</Paragraph>
-                        <Button text="Start Whale Watching" href="https://app.uniwhales.io/" />
+                        <Button text="Start Whale Watching" href="#" />
                     </TextSection>
                     <ImageSection>
                         <img src={Dashboard} alt="Uniwhales Dashboard" />

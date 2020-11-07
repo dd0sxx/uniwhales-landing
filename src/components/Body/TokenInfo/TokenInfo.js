@@ -60,7 +60,7 @@ const TokenInfo = () => {
                         <img src={Piechart} alt="pie chart" />
                     </PieChartCtn>
                     <Button text="Buy UWL" href="#" />
-                    <Paragraph inverse>Total supply 10,000,000 / 15,000,000<br/>Contract: contract url address<br/>Private sale price - 1 ETH = 5,000 | UWL Initial public sale price - 1 ETH = 6,000 UWL</Paragraph>
+                    <Paragraph inverse>Total supply 8,500,000 / 10,000,000<br/>Contract: contract url address<br/>UWL private sale price - 1 ETH = 10,000 UWL | UWL initial public sale price - 1 ETH = 8,000 UWL</Paragraph>
                 </InnerWrapper>
             </Container>
         </TokenWrapper>
