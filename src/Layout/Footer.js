@@ -47,9 +47,7 @@ const FooterCtn = styled.div`
                 color: ${palette.white};
             }
         }
-        :last-child {
-            text-align: right;
-        }
+        
         ${palette.md} {
             width: 100%;
             text-align: center;
@@ -70,10 +68,10 @@ const Footer = () => {
                     </div>
                     <div className="linkcol">
                         <H3 inverse>About</H3>
-                        <a className="footerlink" href="#features">Features</a>
-                        <a className="footerlink" href="#access">Access Levels</a>
-                        <a className="footerlink" href="#token">Token</a>
-                        <a className="footerlink" href="#legal">Legal</a>
+                        <a className="footerlink" href="/#features">Features</a>
+                        <a className="footerlink" href="/#access">Access Levels</a>
+                        <a className="footerlink" href="/#token">Token</a>
+                        <a className="footerlink" href="/legal">Legal</a>
                     </div>
                     <div className="linkcol">
                         <H3 inverse>Community</H3>

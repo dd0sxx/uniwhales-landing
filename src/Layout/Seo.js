@@ -2,18 +2,15 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 
-function SEO({ description, lang, meta, title, twitter_image }) {
+function SEO({ description, meta, title, twitter_image }) {
   
-  const metadescription = description || "Uniwhales description"
-  const metatwitterImage = twitter_image || "images/twitter-image"
+  const metadescription = description || "View realtime Uniswap transactions over $10,000 in a easy to use, customizable dashboard"
+  const metatwitterImage = twitter_image || "images/uniwhales-twitter.jpg"
+  const full_title = title + " | Explore Uniswap Whales" 
 
   return (
     <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={`%s | Explore Uniswap Whales`}
+      title={full_title}
       meta={[
         {
           name: `description`,
@@ -21,7 +18,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: full_title,
         },
         {
           property: `og:description`,
@@ -41,7 +38,7 @@ function SEO({ description, lang, meta, title, twitter_image }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: full_title,
         },
         {
           name: `twitter:image`,
@@ -58,13 +55,11 @@ function SEO({ description, lang, meta, title, twitter_image }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
   meta: [],
 }
 
 SEO.propTypes = {
   description: PropTypes.string,
-  lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
 }
