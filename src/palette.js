@@ -8,3 +8,4 @@ export const light_gray = '#f6f6f6';
 
 export const lg = '@media (max-width: 1200px)';
 export const md = '@media (max-width: 1000px)';
+export const sm = '@media (max-width: 768px)';

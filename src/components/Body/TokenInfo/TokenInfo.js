@@ -11,6 +11,9 @@ const TokenWrapper = styled.div`
   background: ${palette.dark_blue};
   width: 100%;
   padding: 100px 0;
+  ${palette.md} {
+    padding: 30px 0;
+    }
 `;
 
 const Ship = styled.img`

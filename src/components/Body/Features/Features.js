@@ -11,7 +11,10 @@ import Address from '../../../assets/images/address.png'
 const FeaturesWrapper = styled.div`
   background: ${palette.white};
   width: 100%;
-  padding: 50px 0 30px;
+  padding: 50px 0 100px;
+  ${palette.md} {
+      padding: 40px 0;
+    }
 `;
 
 const InnerWrapper = styled.div`
@@ -46,11 +49,12 @@ const Col = styled.div`
       ${palette.md} {
         font-size: 12px;
         padding: 2px 20px;
+        margin-top: 10px;
     }
   }
   ${palette.md} {
     width: 100%;
-    margin: 40px 0;
+    margin: 15px 0;
     }
 `;
 

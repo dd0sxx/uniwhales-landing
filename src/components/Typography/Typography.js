@@ -8,7 +8,7 @@ export const H1 = styled.h1`
   margin: 0 0 30px 0;
   padding: 0;
   ${palette.md} {
-    font-size: 30px;
+    font-size: 36px;
     }
 `;
 
@@ -47,6 +47,7 @@ export const Paragraph = styled.p`
   margin-bottom: ${props => props.marginBottom ? "50px" : "0px"};
   ${palette.md} {
     font-size: 16px;
+    margin-bottom: ${props => props.marginBottom ? "20px" : "0px"};
     }
 `;
 

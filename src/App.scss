@@ -1,24 +1,24 @@
 @font-face {
 	font-family: 'Open Sans';
-	src: url('./assets/fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
+	src: local('Open Sans'), url(./assets/fonts/Open_Sans/OpenSans-Light.ttf) format('truetype');
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Open Sans';
-	src: url('./assets/fonts/Open_Sans/OpenSans-SemiBold.ttf') format('.ttf');
+	src: local('Open Sans'), url(./assets/fonts/Open_Sans/OpenSans-SemiBold.ttf) format('truetype');
 	font-weight: 600;
 }
 
 @font-face {
-	font-family: 'Open Sans';
-	src: url('./assets/fonts/Open_Sans/OpenSans-Bold.ttf') format('.ttf');
+	font-family: 'Open Sans Bold';
+	src: local('Open Sans'), url(./assets/fonts/Open_Sans/OpenSans-Bold.ttf) format('truetype');
 	font-weight: bold;
 }
 
 @font-face {
 	font-family: 'League Spartan';
-	src: url('./assets/fonts/Open_Sans/OpenSans-Bold.ttf') format('.ttf');
+	src: local('League Spartan'), url(./assets/fonts/LeagueSpartan/LeagueSpartan-Bold.otf) format('opentype');
 	font-weight: bold;
 }
 
@@ -31,5 +31,54 @@ body {
 	padding: 0;
 	scroll-behavior: smooth;
 	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x:hidden;
+	width: 100%;
+	position: relative;
+	background-color: #111726;
+}
+
+body, html {
+	overflow-x:hidden;
+}
+
+.nav-tabs {
+	border-bottom: none;
+	font-family: 'League Spartan';
+	color: #111726;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.nav-tabs a {
+	color:#c4c2c2;
+	font-size: 26px;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: #111726;
+    background-color: transparent;
+	border-color: transparent;
+	border-bottom: 3px solid #165df0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@media (max-width: 768px) {
+	.nav-tabs a {
+		font-size: 20px;
+	}
+
+	.nav-tabs {
+		margin-bottom: 30px;
+	}
+
 }
 

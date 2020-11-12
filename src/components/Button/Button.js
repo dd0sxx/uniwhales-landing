@@ -20,10 +20,6 @@ export const ButtonWrapper = styled.a`
       background: ${palette.light_blue};
       padding: 10px 35px;
   }
-  ${palette.md} {
-    width: 100%;
-    text-align: center;
-    }
 `;
 
 export const ButtonWrapperInverse = styled.a`

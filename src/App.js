@@ -5,7 +5,7 @@ import { Route, Switch } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss'
-import './assets/styles/styles.scss'
+
 
 const App = () => {
 	return (

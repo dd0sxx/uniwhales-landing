@@ -12,6 +12,9 @@ const HeroWrapper = styled.div`
   margin-top: 90px;
   width: 100%;
   padding: 100px 0 0 0;
+  ${palette.md} {
+    padding: 50px 0 0 0;
+    }
 `;
 
 const WaveSection = styled.div`
