@@ -95,12 +95,12 @@ export default class Transactions extends React.Component {
   }
 
   componentDidMount() {
-    axios.get(`http://api.uniwhales.io/txs/trending-tokens/`)
+    axios.get(`https://api.uniwhales.io/txs/trending-tokens/`)
       .then(res => {
         const trendingtokens = Object.keys(res.data);
         this.setState({ trendingtokens });
       })
-      axios.get(`http://api.uniwhales.io/txs/top-txs/`)
+      axios.get(`https://api.uniwhales.io/txs/top-txs/`)
       .then(res => {
         const transactions = res.data.txs;
         console.log(transactions);
