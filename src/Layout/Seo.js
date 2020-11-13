@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet"
 function SEO({ description, meta, title, twitter_image }) {
   
   const metadescription = description || "View realtime Uniswap transactions over $10,000 in a easy to use, customizable dashboard"
-  const metatwitterImage = twitter_image || "images/uniwhales-twitter.jpg"
+  const metatwitterImage = twitter_image || "uniwhales-twitter.jpg"
   const full_title = title + " | Explore Uniswap Whales" 
 
   return (

@@ -45,6 +45,14 @@ const TextSection = styled.div`
     }
 `;
 
+const TelegramText = styled.div`
+  color: ${palette.gray};
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+`;
+
 const ImageSection = styled.div`
   width: 50%;
   padding-left: 40px;
@@ -65,9 +73,10 @@ const Hero = () => {
             <Container>
                 <InnerWrapper>
                     <TextSection>
-                        <H1 inverse >High volume Uniswap trades at a glance</H1>
-                        <Paragraph inverse marginBottom >Uniwhales helps you track large volume transactions on Uniswap. See pumps, dumps, and interesting whale moves in real-time giving you a critical trading edge in this fast moving marketplace.</Paragraph>
-                        <Button text="Start Whale Watching" href="#" />
+                        <H1 inverse >Find the market movers on Uniswap</H1>
+                        <Paragraph inverse marginBottom >UniWhales helps you track large volume transactions and traders on Uniswap. Observe whale action in real time; BEFORE everyone else knows what their up to.</Paragraph>
+                        <Button text="Join our Telegram Channel" href="https://t.me/uniwhales" />
+                        <TelegramText>2,000+ members</TelegramText>
                     </TextSection>
                     <ImageSection>
                         <img src={Dashboard} alt="Uniwhales Dashboard" />

@@ -72,12 +72,12 @@ const Features = () => {
                         <img src={Address} alt="address finder" />
                         <H3>Address filtering</H3>
                         <Paragraph>Found a whale address? Keep an eye on it with our address filtering feature</Paragraph>
-                        <div className="premium">Premium</div>
+                        <div className="premium">Pro</div>
                     </Col>
                     <Col>
                         <img src={Telegram} alt="dashboard" />
                         <H3>Telegram alerts</H3>
-                        <Paragraph>Keep up with the latest market moves in our automated Telegram group</Paragraph>
+                        <Paragraph>Keep up with the latest market movements in our automated Telegram channels</Paragraph>
                     </Col>
                 </InnerWrapper>
             </Container>
