@@ -126,7 +126,7 @@ export default class Transactions extends React.Component {
 
 
 render() {
-  const ethscan = "https://etherscan.io/address/"
+  const ethscan = "https://etherscan.io/tx/"
   return (
     <Wrapper id="transactions">
             <Container>
@@ -137,7 +137,7 @@ render() {
                     <Row>
                       { this.state.transactions.slice(0, 6).map(transactions => 
                         <Col sm={12} md={6} lg={4} key={transactions.hash}>
-                          <a target="_blank" rel="noreferrer" href={ethscan + transactions.address}>
+                          <a target="_blank" rel="noreferrer" href={ethscan + transactions.hash}>
                             <Card>
                               <div className="details">
                               <H3>{transactions.transaction.from.token} &gt; {transactions.transaction.for.token}</H3>
@@ -148,7 +148,7 @@ render() {
                                   )
                                 }
                                 </div>
-                              <H2>${numberWithCommas(`${transactions.total_usd}`)}</H2>
+                              <H2>${numberWithCommas(`${transactions.total_usd.toFixed()}`)}</H2>
                             </Card>
                           </a>
                         </Col>
@@ -160,7 +160,6 @@ render() {
                     <Row>
                       { this.state.trendingtokens.slice(0, 4).map(trendingtokens => 
                         <Col md={3} key={trendingtokens}>
-                          <a target="_blank" rel="noreferrer" href="https://etherscan.io/tokens">
                             <Card center>
                             <div className="details">
                               <H3>{trendingtokens[1]} Txs</H3>
@@ -168,7 +167,6 @@ render() {
                             </div>
                               <H2>{trendingtokens[0]}</H2>
                             </Card>
-                          </a>
                         </Col>
                         )}
                     </Row>

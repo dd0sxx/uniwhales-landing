@@ -66,7 +66,7 @@ const Features = () => {
                     <Col>
                         <img src={Dashboard} alt="dashboard" />
                         <H3>Realtime dashboard</H3>
-                        <Paragraph>Our robust dashboard displays realtime Uniswap trading data in an easy to use interface</Paragraph>
+                        <Paragraph>Our robust dashboard displays realtime Uniswap trading data in an easy to read interface</Paragraph>
                     </Col>
                     <Col>
                         <img src={Address} alt="address finder" />
@@ -77,7 +77,7 @@ const Features = () => {
                     <Col>
                         <img src={Telegram} alt="dashboard" />
                         <H3>Telegram alerts</H3>
-                        <Paragraph>Keep up with the latest market movements in our automated Telegram channels</Paragraph>
+                        <Paragraph>Latest market movements are broadcasted to our automated Telegram channels</Paragraph>
                     </Col>
                 </InnerWrapper>
             </Container>

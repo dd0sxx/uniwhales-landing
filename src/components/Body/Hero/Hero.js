@@ -73,9 +73,9 @@ const Hero = () => {
             <Container>
                 <InnerWrapper>
                     <TextSection>
-                        <H1 inverse >Find the market movers on Uniswap</H1>
-                        <Paragraph inverse marginBottom >UniWhales helps you track large volume transactions and traders on Uniswap. Observe whale action in real time; BEFORE everyone else knows what their up to.</Paragraph>
-                        <Button text="Join our Telegram Channel" href="https://t.me/uniwhales" />
+                        <H1 inverse >Analyze the market movers on Uniswap</H1>
+                        <Paragraph inverse marginBottom >Realtime whale data. Track large volume transactions and traders on Uniswap BEFORE everyone else knows what they are up to.</Paragraph>
+                        <Button text="Join the Telegram Channel" href="https://t.me/uniwhales" />
                         <TelegramText>2,000+ members</TelegramText>
                     </TextSection>
                     <ImageSection>

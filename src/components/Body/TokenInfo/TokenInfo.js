@@ -70,7 +70,7 @@ const TokenInfo = () => {
                         <img src={Piechart} alt="pie chart" />
                     </PieChartCtn>
                     <Button text="Get UWL" href="#" />
-                    <Paragraph inverse>Team reserve (15%) locked for 6 months | Uniswap LP(25%) locked for 6 months<br />Circulating supply: 8,500,000 | Total supply: 10,000,000<br/>UWL Token Contract: <a className="address" href="https://etherscan.io/token/0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5">0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5</a><br/>UWL private sale price - 1 ETH = 10,000 UWL | UWL initial public sale price - 1 ETH = 8,000 UWL</Paragraph>
+                    <Paragraph inverse>Team reserve (15%) locked for 6 months | Uniswap LP (25%) locked for 6 months<br />Circulating supply: 8,500,000 | Total supply: 10,000,000<br/>UWL Token Contract: <a className="address" href="https://etherscan.io/token/0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5">0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5</a><br/>UWL private sale price - 1 ETH = 10,000 UWL | UWL initial public sale price - 1 ETH = 8,000 UWL</Paragraph>
                 </InnerWrapper>
             </Container>
         </TokenWrapper>
