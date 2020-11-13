@@ -24,7 +24,7 @@ const FooterCtn = styled.div`
   width: 100%;
   display: flex;
   align-items: flex-start;
-  padding: 0 0 150px 0;
+  padding: 0 0 50px 0;
   ${palette.md} {
     flex-direction: column;
     }
@@ -57,6 +57,14 @@ const FooterCtn = styled.div`
 
 `;
 
+const Disclaimer = styled.div`
+  width: 100%;
+  text-align: center;
+  color: ${palette.dark_gray};
+  font-size: 12px;
+  margin-bottom: 10px;
+`;
+
 const Footer = () => {
 	
 	return (
@@ -69,9 +77,9 @@ const Footer = () => {
                     <div className="linkcol">
                         <H3 inverse>About</H3>
                         <a className="footerlink" href="/#features">Features</a>
+                        <a className="footerlink" href="/#transactions">Transactions</a>
                         <a className="footerlink" href="/#access">Access Levels</a>
                         <a className="footerlink" href="/#token">Token</a>
-                        <a className="footerlink" href="/legal">Legal</a>
                     </div>
                     <div className="linkcol">
                         <H3 inverse>Community</H3>
@@ -84,6 +92,7 @@ const Footer = () => {
                         <Button text="Launch App" href="#" />
                     </div>
                 </FooterCtn>
+                <Disclaimer>$UWL is a utility token used to gain membership to the UniWhales analytics platform. Extreme changes in price may occur at any time, resulting in a potential loss of value, complete or partial loss of purchasing power, and difficulty or a complete inability to sell or exchange your digital currency. UniWhales shall be under no obligation to purchase or to broker the purchase back from you of your cryptocurrency in circumstances where there is no viable market for the purchase of the same. None of the content published on this site constitutes a recommendation that any particular cryptocurrency, portfolio of cryptocurrencies, transaction or investment strategy is suitable for any specific person. None of the information providers or their affiliates will advise you personally concerning the nature, potential, value or suitability of any particular cryptocurrency, portfolio of cryptocurrencies, transaction, investment strategy or other matter. The products and services presented on this website may only be purchased in jurisdictions in which their marketing and distribution are authorized.</Disclaimer>
                 <Paragraph inverse>©2020 UniWhales.io All rights reserved</Paragraph>
             </Container>
 		</Wrapper>
