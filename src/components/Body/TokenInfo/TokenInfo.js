@@ -27,6 +27,9 @@ const InnerWrapper = styled.div`
   p {
       font-size: 14px;
       margin-top: 50px;
+      ${palette.md} {
+        font-size: 12px;
+    }
   }
 
   .address {
@@ -44,6 +47,9 @@ const PieChartCtn = styled.div`
      width: 100%;
      max-width: 700px;
      margin-bottom: 80px;
+     ${palette.md} {
+      margin-bottom: 50px;
+    }
   }
 `;
 

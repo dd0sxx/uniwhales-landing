@@ -9,6 +9,7 @@ export const H1 = styled.h1`
   padding: 0;
   ${palette.md} {
     font-size: 36px;
+    margin: 0 0 10px 0;
     }
 `;
 
@@ -22,6 +23,7 @@ export const H2 = styled.h2`
   text-align: center;
   ${palette.md} {
     font-size: 25px;
+    margin-bottom: ${props => props.nomarginBottom ? "0" : "40px"};
     }
 `;
 
@@ -48,6 +50,7 @@ export const Paragraph = styled.p`
   ${palette.md} {
     font-size: 16px;
     margin-bottom: ${props => props.marginBottom ? "20px" : "0px"};
+    line-height: 1.6em;
     }
 `;
 

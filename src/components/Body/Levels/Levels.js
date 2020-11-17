@@ -11,6 +11,9 @@ const LevelsWrapper = styled.div`
   background: ${palette.white};
   width: 100%;
   padding: 100px 0;
+  ${palette.md} {
+    padding: 50px 0;
+    }
 `;
 
 const InnerWrapper = styled.div`
@@ -76,6 +79,10 @@ const ListItem = styled.div`
       height: 12px;
       margin: 8px 8px 0 0;
   }
+
+  ${palette.md} {
+    font-size: 14px;
+    }
 
 `;
 

@@ -25,6 +25,9 @@ const InnerWrapper = styled.div`
     max-width: 750px;
     text-align: center;
     display: inline-block;
+    ${palette.sm} {
+      font-size: 14px;
+    }
   }
 `;
 
@@ -136,7 +139,7 @@ render() {
                     <Paragraph>Largest Uniswap trades over the last 24 hours</Paragraph>
                     <Row>
                       { this.state.transactions.slice(0, 6).map(transactions => 
-                        <Col sm={12} md={6} lg={4} key={transactions.hash}>
+                        <Col md={6} lg={4} key={transactions.hash}>
                           <a target="_blank" rel="noreferrer" href={ethscan + transactions.hash}>
                             <Card>
                               <div className="details">
