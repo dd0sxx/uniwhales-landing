@@ -13,7 +13,12 @@ const HeroWrapper = styled.div`
   width: 100%;
   padding: 100px 0 0 0;
   ${palette.md} {
-    padding: 50px 0 0 0;
+    padding: 30px 0 0 0;
+    text-align: center;
+
+    p {
+      margin-bottom: 30px;
+    }
     }
 `;
 
@@ -51,6 +56,11 @@ const TelegramText = styled.div`
   display: inline-block;
   font-size: 14px;
   font-weight: 600;
+  ${palette.md} {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+    }
 `;
 
 const ImageSection = styled.div`

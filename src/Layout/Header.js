@@ -22,6 +22,12 @@ const Nav = styled.div`
   .logo {
       height: 50px;
   }
+  ${palette.md} {
+    padding: 15px 0;
+    .logo {
+      height: 35px;
+  }
+    }
 `;
 
 const Button = styled.a`
@@ -42,6 +48,10 @@ const Button = styled.a`
       background: ${palette.light_blue};
       padding: 10px 35px;
   }
+  ${palette.md} {
+    padding: 6px 20px;
+    font-size: 14px;
+    }
 `;
 
 const TelegramLink = styled.a`
@@ -54,6 +64,11 @@ const TelegramLink = styled.a`
             :hover {
                 fill: ${palette.white};
             }
+            ${palette.md} {
+                width: 30px;
+            height: 30px;
+            margin-right: 20px;
+    }
         }
 `;
 

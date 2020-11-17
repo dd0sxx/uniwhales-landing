@@ -13,7 +13,7 @@ const FeaturesWrapper = styled.div`
   width: 100%;
   padding: 50px 0 100px;
   ${palette.md} {
-      padding: 40px 0;
+      padding: 40px 0 60px 0;
     }
 `;
 
@@ -34,7 +34,8 @@ const Col = styled.div`
       height: 70px;
       margin-bottom: 30px;
       ${palette.md} {
-        height: 40px;
+        height: 50px;
+        margin-bottom: 20px;
     }
   }
   .premium {
@@ -47,14 +48,15 @@ const Col = styled.div`
       padding: 2px 30px;
       margin-top: 20px;
       ${palette.md} {
-        font-size: 12px;
+        /* font-size: 12px;
         padding: 2px 20px;
-        margin-top: 10px;
+        margin-top: 10px; */
+        display: none;
     }
   }
   ${palette.md} {
     width: 100%;
-    margin: 15px 0;
+    margin: 20px 0;
     }
 `;
 
