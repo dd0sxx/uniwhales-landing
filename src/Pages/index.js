@@ -15,7 +15,7 @@ const IndexPage = () => {
 	
 	return (
 		<>
-            <SEO title="Uniwhales.io"/>
+            <SEO title="🐋 Track the large trades on Uniswap"/>
             <Header />
 			<Hero />
 			<Features />
