@@ -149,7 +149,7 @@ const Levels = () => {
                             </ListItem>
                         </List>
                         <div className="buttonbottom">
-                            <Button inverse text="Get UWL" href="#" />
+                            <Button inverse text="Get UWL" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
                         </div>
                     </Card>
                     <Card>
@@ -175,7 +175,7 @@ const Levels = () => {
                             
                         </List>
                         <div className="buttonbottom">
-                            <Button inverse text="Get UWL" href="#" />
+                            <Button inverse text="Get UWL" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
                         </div>
                     </Card>
                 </InnerWrapper>
