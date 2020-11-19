@@ -48,6 +48,10 @@ const Card = styled.div`
       padding: 25px 0 15px;
       margin-bottom: 0;
       color: ${palette.white};
+      span {
+          font-size: 18px;
+          display: block;
+      }
   }
 
   .buttonbottom {
@@ -57,6 +61,12 @@ const Card = styled.div`
   ${palette.md} {
     width: 100%;
     margin: 10px 0;
+    h3 {
+      span {
+          font-size: 14px;
+         
+      }
+  }
     }
 
 `;
@@ -110,12 +120,12 @@ const Levels = () => {
                             </ListItem>
                         </List>
                         <div className="buttonbottom">
-                            <Button inverse text="Open App" href="#" />
+                            <Button inverse text="App Launching Soon!" />
                         </div>
                     </Card>
                     <Card>
                         <H2>Pro</H2>
-                        <H3>Hold 5k UWL</H3>
+                        <H3>Hold 5k UWL<span>Coming soon</span></H3>
                         <List>
                             <ListItem>
                                 <img src={Checkmark} alt="checkmark" />
@@ -139,7 +149,7 @@ const Levels = () => {
                             </ListItem>
                         </List>
                         <div className="buttonbottom">
-                            <Button inverse text="Get UWL" href="#" />
+                            <Button inverse text="Get UWL" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
                         </div>
                     </Card>
                     <Card>
@@ -165,7 +175,7 @@ const Levels = () => {
                             
                         </List>
                         <div className="buttonbottom">
-                            <Button inverse text="Get UWL" href="#" />
+                            <Button inverse text="Get UWL" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
                         </div>
                     </Card>
                 </InnerWrapper>
