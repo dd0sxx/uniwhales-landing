@@ -94,6 +94,7 @@ const Footer = () => {
                         <a className="footerlink" href="/#transactions">Transactions</a>
                         <a className="footerlink" href="/#access">Access Levels</a>
                         <a className="footerlink" href="/#token">Token</a>
+                        <a className="footerlink" target="_blank" rel="noreferrer" href="https://www.coingecko.com/en/coins/uniwhales">CoinGecko</a>
                     </div>
                     <div className="linkcol">
                         <H3 inverse>Community</H3>

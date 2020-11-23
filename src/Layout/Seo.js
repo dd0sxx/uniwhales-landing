@@ -41,8 +41,12 @@ function SEO({ description, meta, title, twitter_image }) {
           content: full_title,
         },
         {
+          name: `twitter:site`,
+          content: "@uniwhalesio",
+        },
+        {
           name: `twitter:image`,
-          content: "https://www.uniwhales.io/uniwhales-twitter.jpg",
+          content: "https://pbs.twimg.com/profile_banners/3065800816/1605800908/1500x500",
         },
         {
           name: `twitter:description`,
@@ -56,6 +60,7 @@ function SEO({ description, meta, title, twitter_image }) {
 
 SEO.defaultProps = {
   meta: [],
+  title: "UniWhales",
 }
 
 SEO.propTypes = {
