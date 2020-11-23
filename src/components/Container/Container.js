@@ -8,6 +8,7 @@ export const Container = styled.div`
     margin-right: auto;
     margin-left: auto;
     max-width: 1150px;
+    max-width: ${props => props.lesswidth ? '800px' : '1150px'};
     ${palette.lg} {
         max-width: 980px;
     }

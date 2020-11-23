@@ -78,7 +78,7 @@ const Header = () => {
 		<NavWrapper>
             <Container>
                 <Nav>
-                    <img className="logo" src={Logo} alt="Uniwhales Logo"/>
+                    <a href="/"><img className="logo" src={Logo} alt="Uniwhales Logo"/></a>
                     <div>
                         <TelegramLink href="https://t.me/uniwhales">
                             <Telegram />
