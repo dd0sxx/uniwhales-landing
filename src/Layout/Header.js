@@ -113,8 +113,8 @@ const Header = () => {
                         {/* <TelegramLink href="https://t.me/uniwhales">
                             <Telegram />
                         </TelegramLink> */}
-                        <Button2 href="https://t.me/uniwhales">Telegram</Button2>
-                        <Button2 href="/telegram">Premium Telegram</Button2>
+                        <Button2 href="https://t.me/uniwhales">Telegram (Free)</Button2>
+                        <Button2 href="/telegram">Premium TG/DAO</Button2>
                         <Button className="hide">App Launching Soon!</Button>
                     </div>
                 </Nav>
