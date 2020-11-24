@@ -1,6 +1,7 @@
 import React from 'react'
 import IndexPage from './Pages/index.js'
 import PageNotFound from './Pages/404.js'
+import Telegram from './Pages/telegram.js'
 import { Route, Switch } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,6 +14,9 @@ const App = () => {
 			<Switch>
 				<Route exact path="/">
 					<IndexPage />
+				</Route>
+				<Route>
+					<Telegram />
 				</Route>
 				<Route>
 					<PageNotFound />
