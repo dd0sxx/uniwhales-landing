@@ -103,7 +103,7 @@ const TelegramPage = () => {
 						</Col>
 
 						<Col md={6} className="cardstyle">
-							<a href="https://telegram.me/collablandbot?start=recUcAhJAJLYPnvzp_-tp" target="_blank" rel="noreferrer">
+							<a href="https://telegram.me/collablandbot?start=recUcAhJAJLYPnvzp_-tpc" target="_blank" rel="noreferrer">
 								<Card style={{background: '#00f0a4'}}>New/Unknown Tokens</Card>
 							</a>
 						</Col>
