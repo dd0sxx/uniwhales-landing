@@ -79,7 +79,8 @@ const TelegramPage = () => {
 			<Wrapper id="features">
 				<Container lesswidth>
 					<H2>How to join the Uniwhales Telegram alerts and DAO</H2>
-					<Paragraph marginBottom>If you have 5000 or more UWL tokens, you can now start using the premium Telegram alert features as well as be part of the community DAO.</Paragraph>
+					<Paragraph>If you have 5000 or more UWL tokens (<a href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" target="_blank">Get UWL on Uniswap</a>), you can now start using the premium Telegram alert features and participate in the community DAO. </Paragraph>
+					<Paragraph marginBottom><b>Note:</b> Each of the Telegram channels listed below has a more detailed description of its functionality once you join. 👇👇</Paragraph>
 					<H2>Premium Channels</H2>
 					<Row className="rowstyle">
 						<Col md={6} className="cardstyle">
@@ -96,7 +97,7 @@ const TelegramPage = () => {
 
 						<Col md={6} className="cardstyle">
 							<a href="https://telegram.me/collablandbot?start=recGDRR7eb7mhrg58_-tpc" target="_blank" rel="noreferrer">
-								<Card style={{background: '#f07b21'}}>LP add/remove</Card>
+								<Card style={{background: '#f07b21'}}>LP Add/Remove</Card>
 							</a>
 						</Col>
 
@@ -113,7 +114,8 @@ const TelegramPage = () => {
 					<li>This will prompt you to connect a wallet to verify the amount of tokens. Currently, four wallet types are supported. We recommend MetaMask because for the Web App (coming soon) it is the only wallet that we currently support.</li>
 					<li>Once verified you’ll see a “Join Group” link in the Collab.Land Telegram bot.</li>
 					</ol>
-					<Paragraph>You’ll need to repeat the process for every additional channel you would like to join. In step 1, you may need to click on the “Start” button at the bottom of the Collab.Land Telegram bot to start the additional subscription processes.</Paragraph>
+					<Paragraph marginBottom>You’ll need to repeat the process for every additional channel you would like to join. In step 1, you may need to click on the “Start” button at the bottom of the Collab.Land Telegram bot to start the additional subscription processes.</Paragraph>
+					<Paragraph>Honored to have you in the UniWhales community!</Paragraph>
 				</Container>
         	</Wrapper>
 			<Footer />
