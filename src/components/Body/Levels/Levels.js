@@ -120,7 +120,7 @@ const Levels = () => {
                             </ListItem>
                         </List>
                         <div className="buttonbottom">
-                            <Button inverse text="App Launching Soon!" />
+                            <Button inverse href="https://app.uniwhales.io/" text="Launch App" />
                         </div>
                     </Card>
                     <Card>

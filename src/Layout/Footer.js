@@ -104,7 +104,7 @@ const Footer = () => {
                         <a className="footerlink" href="mailto:info@uniwhales.io">Contact</a>
                     </div>
                     <div className="linkcol">
-                        <Button text="App Launching Soon!" />
+                        <Button href="https://app.uniwhales.io/" text="Launch App" />
                         <Button text="Get UWL" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
                     </div>
                 </FooterCtn>
