@@ -24,6 +24,9 @@ const Nav = styled.div`
   }
   ${palette.md} {
     padding: 15px 0;
+    .hide {
+        display: none;
+    }
     .logo {
       height: 35px;
   }
@@ -60,6 +63,9 @@ const Button = styled.a`
   ${palette.md} {
     padding: 6px 20px;
     font-size: 14px;
+    :last-child {
+      margin-left: 10px;
+  }
     }
 `;
 
@@ -84,23 +90,25 @@ const Button2 = styled.a`
     }
 `;
 
-// const TelegramLink = styled.a`
-//     svg {
-//             fill: ${palette.off_white};
-//             width: 40px;
-//             height: 40px;
-//             margin-right: 30px;
+const TelegramLink = styled.a`
+    svg {
+            fill: ${palette.off_white};
+            width: 40px;
+            height: 40px;
+            margin-right: 30px;
+            display: none;
 
-//             :hover {
-//                 fill: ${palette.white};
-//             }
-//             ${palette.md} {
-//                 width: 30px;
-//             height: 30px;
-//             margin-right: 20px;
-//     }
-//         }
-// `;
+            :hover {
+                fill: ${palette.white};
+            }
+            ${palette.md} {
+                width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            display: inline-block;
+    }
+        }
+`;
 
 const Header = () => {
 	
@@ -110,12 +118,12 @@ const Header = () => {
                 <Nav>
                     <a href="/"><img className="logo" src={Logo} alt="Uniwhales Logo"/></a>
                     <div>
-                        {/* <TelegramLink href="https://t.me/uniwhales">
+                        <TelegramLink href="https://t.me/uniwhales">
                             <Telegram />
-                        </TelegramLink> */}
-                        <Button2 href="https://t.me/uniwhales">Telegram (Free)</Button2>
-                        <Button2 href="/telegram">Premium TG/DAO</Button2>
-                        <Button className="hide">App Launching Soon!</Button>
+                        </TelegramLink>
+                        <Button2 className="hide" href="https://t.me/uniwhales">Telegram (Free)</Button2>
+                        <Button2 className="hide" href="/telegram">Premium TG/DAO</Button2>
+                        <Button href="https://app.uniwhales.io/">Launch App</Button>
                     </div>
                 </Nav>
             </Container>
