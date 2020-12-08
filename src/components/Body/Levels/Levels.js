@@ -125,7 +125,7 @@ const Levels = () => {
                     </Card>
                     <Card>
                         <H2>Pro</H2>
-                        <H3>Hold 5k UWL<span>Coming soon</span></H3>
+                        <H3>Hold 5k UWL</H3>
                         <List>
                             <ListItem>
                                 <img src={Checkmark} alt="checkmark" />

@@ -112,7 +112,7 @@ const TelegramPage = () => {
 					<ol>
 					<li>Click on any of the Telegram links above to start the process.</li>
 					<li>Click on “Connect” in the Telegram bot, which is titled Collab.Land</li>
-					<li>This will prompt you to connect a wallet to verify the amount of tokens. Currently, four wallet types are supported. We recommend MetaMask because for the Web App (coming soon) it is the only wallet that we currently support.</li>
+					<li>This will prompt you to connect a wallet to verify the amount of tokens. Currently, four wallet types are supported. We recommend MetaMask because for the Web App it is the only wallet that we currently support.</li>
 					<li>Once verified you’ll see a “Join Group” link in the Collab.Land Telegram bot.</li>
 					</ol>
 					<H2>Troubleshooting</H2>
