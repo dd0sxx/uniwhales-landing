@@ -120,6 +120,13 @@ const TelegramPage = () => {
 					<li>This will prompt you to connect a wallet to verify the amount of tokens. Currently, four wallet types are supported. We recommend MetaMask because for the Web App it is the only wallet that we currently support.</li>
 					<li>Once verified you’ll see a “Join Group” link in the Collab.Land Telegram bot.</li>
 					</ol>
+					<Paragraph><strong>Does UniWhales store Telegram ID / Ethereum Address connections of premium members?</strong></Paragraph>
+					<Paragraph>
+					No, UniWhales team does not store or have access to this information. We use a 3rd party integration called <a href="https://collab.land/">Collab.Land</a> bot, which is built by the <a href="https://abridged.io/">Abridged.io</a> team.
+					</Paragraph>
+					<Paragraph marginBottom>
+					Abridged is connected with many of the top Ethereum communities. For example they were hired to audit and improve the MakerDAO governance process to identify pain points and integrate DAO Ops systems. Read more about their work at abridged.io.
+					</Paragraph>
 					<H2>Troubleshooting</H2>
 					<Paragraph marginBottom>If you have joined a previous collab.land bot before, you may need to clear your Telegram chat history.<br/><br/>You’ll need to repeat the process for every additional channel you would like to join. In step 1, you may need to click on the “Start” button at the bottom of the Collab.Land Telegram bot to start the additional subscription processes.</Paragraph>
 					<Paragraph>Honored to have you in the UniWhales community!</Paragraph>
