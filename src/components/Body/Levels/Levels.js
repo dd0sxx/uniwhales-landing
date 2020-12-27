@@ -154,23 +154,23 @@ const Levels = () => {
                     </Card>
                     <Card>
                         <H2>Whale</H2>
-                        <H3>Coming soon</H3>
+                        <H3>First Channel Live!</H3>
                         <List>
                             <ListItem>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
                                 Everything in Pro plus more data sorting and customized signals based on DAO group feedback
                             </ListItem>
-                            <ListItem style={{filter: 'blur(3px)'}}>
+                            <ListItem>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
-                                Advanced wallet tracking
+                                Power broker channel&nbsp;<a href="/telegram#whale-channels">now available</a>
                             </ListItem>
-                            <ListItem style={{filter: 'blur(3px)'}}>
+                            <ListItem style={{filter: 'blur(3px)', userSelect: 'none'}}>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
-                                Highly customizable analytics
+                                Hey you're not supposed to see this
                             </ListItem>
-                            <ListItem style={{filter: 'blur(3px)'}}>
+                            <ListItem style={{filter: 'blur(3px)', userSelect: 'none'}}>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
-                                Integrated trading platform
+                                This is our super secret plan stuff
                             </ListItem>
                             
                         </List>
