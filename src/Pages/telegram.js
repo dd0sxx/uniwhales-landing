@@ -116,7 +116,7 @@ const TelegramPage = () => {
 					<H2>Whale Channels (16000 UWL)</H2>
 					<Row className="rowstyle">
 						<Col md={6} className="cardstyle">
-							<a href="https://telegram.me/collablandbot?start=recS4hkNHh2mZDpgx_-tpc" target="_blank" rel="noreferrer">
+							<a href="https://telegram.me/collablandbot?start=recCuAx99IMyBekmz_-tpc" target="_blank" rel="noreferrer">
 								<Card style={{background: '#d93204'}}>Power Brokers</Card>
 							</a>
 						</Col>
