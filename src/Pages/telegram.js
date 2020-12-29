@@ -113,7 +113,7 @@ const TelegramPage = () => {
 							</a>
 						</Col>
 					</Row>
-					<H2>Whale Channels (16000 UWL)</H2>
+					<H2>Whale Channels (16,000 UWL)</H2>
 					<Row className="rowstyle">
 						<Col md={6} className="cardstyle">
 							<a href="https://telegram.me/collablandbot?start=recCuAx99IMyBekmz_-tpc" target="_blank" rel="noreferrer">
