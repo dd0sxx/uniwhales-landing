@@ -89,6 +89,11 @@ const TelegramPage = () => {
 								<Card style={{background: '#165df0'}}>DAO</Card>
 							</a>
 						</Col>
+						<Col md={6} className="cardstyle">
+							<a href="https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMTkxOTUzODc3" target="_blank" rel="noreferrer">
+								<Card style={{background: '#007bff'}}>DAO Announcements</Card>
+							</a>
+						</Col>
 
 						<Col md={6} className="cardstyle">
 							<a href="https://telegram.me/collablandbot?start=rec772lcdvYhmtDA2_-tpc" target="_blank" rel="noreferrer">
