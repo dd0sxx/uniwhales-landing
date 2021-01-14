@@ -51,19 +51,44 @@ const Card = styled.div`
   width: 100%;
   padding: 30px;
   border: 1px solid ${palette.light_gray};
-  color: ${palette.white};
-  border-radius: 100px;
-  font-weight: 600;
-  font-size: 18px;
+  border-radius: 20px;
   margin-bottom: 30px;
-  transition: all 300ms ease-in-out;
+  -webkit-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.06); 
+  box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.06);
 
-  :hover {
-	transform: translate(0, -2px);
+  h3 {
+	  padding: 20px 0;
+	  color: #fff;
+	  font-weight: bold;
+	  border-radius: 10px;
+	  margin-bottom: 20px;
+	  font-size: 18px;
   }
 
+  a {
+	color: ${palette.off_white};
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px 30px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  display: inline-block;
+  background-color: ${palette.light_blue};
+  margin-top: 20px;
+  :hover {
+      text-decoration: none;
+      color: ${palette.white};
+      background: ${palette.light_blue};
+      padding: 10px 35px;
+  }
+  }
+
+
   ${palette.md} {
-	padding: 20px 0;
+	padding: 20px;
 	margin-bottom: 10px;
 	font-size: 16px;
     }
@@ -81,49 +106,63 @@ const TelegramPage = () => {
 					<H2>How to Join - Premium Telegram Alerts and DAO</H2>
 					<Paragraph>If you have 5000 or more UWL tokens (<a href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" target="_blank" rel="noreferrer">Get UWL on Uniswap</a>), you can now start using the premium Telegram alert features and participate in the community DAO. </Paragraph>
 					<br></br>
-					<Paragraph marginBottom><b>Note:</b> Each of the Telegram channels listed below has a more detailed description of its functionality once you join. 👇👇</Paragraph>
+					<Paragraph marginBottom><b>Note:</b> Each of the Telegram channels listed below has a more detailed description of its functionality hovering over the ? 👇👇</Paragraph>
 					<H2>Premium Channels</H2>
 					<Row className="rowstyle">
 						<Col md={6} className="cardstyle">
-							<a href="https://telegram.me/collablandbot?start=recS4hkNHh2mZDpgx_-tpc" target="_blank" rel="noreferrer">
-								<Card style={{background: '#165df0'}}>DAO</Card>
-							</a>
+							<Card>
+								<h3 style={{background: '#165df0'}}>DAO</h3>
+								<Paragraph>The heart and soul of UniWhales - our community discussion with some of the brightest and creative minds of DeFi</Paragraph>
+								<a href="https://telegram.me/collablandbot?start=recS4hkNHh2mZDpgx_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
+							</Card>
 						</Col>
 						<Col md={6} className="cardstyle">
-							<a href="https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMTkxOTUzODc3" target="_blank" rel="noreferrer">
-								<Card style={{background: '#007bff'}}>DAO Announcements</Card>
-							</a>
-						</Col>
-
-						<Col md={6} className="cardstyle">
-							<a href="https://telegram.me/collablandbot?start=rec772lcdvYhmtDA2_-tpc" target="_blank" rel="noreferrer">
-								<Card style={{background: '#cd04ff'}}>Volume Spikes</Card>
-							</a>
+							<Card>
+								<h3 style={{background: '#007bff'}}>DAO Announcements</h3>
+ 							<Paragraph>Need to catch up on the latest with our platform without reading through hundreds of messages? This is the place. Learn about new product features, content, and everything to get the most out of our platform.</Paragraph>
+								<a style={{background: '#007bff'}} href="https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMTkxOTUzODc3" target="_blank" rel="noreferrer">Join Channel</a>
+							</Card>
 						</Col>
 
 						<Col md={6} className="cardstyle">
-							<a href="https://telegram.me/collablandbot?start=recGDRR7eb7mhrg58_-tpc" target="_blank" rel="noreferrer">
-								<Card style={{background: '#f07b21'}}>LP Add/Remove</Card>
-							</a>
+							<Card>
+								<h3 style={{background: '#cd04ff'}}>Volume Spikes</h3>
+								<Paragraph>This bot alerts high % volume spikes over 15 minutes relative to the last 24 hours of volume.</Paragraph>
+								<a style={{background: '#cd04ff'}} href="https://telegram.me/collablandbot?start=rec772lcdvYhmtDA2_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
+							</Card>
 						</Col>
 
 						<Col md={6} className="cardstyle">
-							<a href="https://telegram.me/collablandbot?start=recUcAhJAJLYPnvzp_-tpc" target="_blank" rel="noreferrer">
-								<Card style={{background: '#00f0a4'}}>New/Unknown Tokens</Card>
-							</a>
+							<Card>
+								<h3 style={{background: '#f07b21'}}>LP Add/Remove</h3>
+								<Paragraph>Find where the whales are providing liquidity: alerts of any Uniswap liquidity adds/removes of $250,000 USD minimum.</Paragraph>
+								<a style={{background: '#f07b21'}} href="https://telegram.me/collablandbot?start=recGDRR7eb7mhrg58_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
+							</Card>
+						</Col>
+
+						<Col md={6} className="cardstyle">
+							<Card>
+								<h3 style={{background: '#00f0a4'}}>New/Unknown Tokens</h3>
+								<Paragraph>Find new tokens on Uniswap. Alerts for the first 2.5k, 5k, & then only 10k USD + swaps of a token. Alerts continue for the following 24 hours OR after reaching a limit of 50+ tx, whichever comes first.</Paragraph>
+								<a style={{background: '#00f0a4'}} href="https://telegram.me/collablandbot?start=recUcAhJAJLYPnvzp_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
+							</Card>
 						</Col>
 						<Col id="whale-channels" md={6} className="cardstyle">
-							<a href="https://telegram.me/collablandbot?start=rec7X2YaPFmRQwie8_-tpc" target="_blank" rel="noreferrer">
-								<Card style={{background: '#fa52a0'}}>SushiWhales</Card>
-							</a>
+							<Card>
+								<h3 style={{background: '#fa52a0'}}>SushiWhales</h3>
+								<Paragraph>Tracking the large trades of SushiSwap</Paragraph>
+								<a style={{background: '#fa52a0'}} href="https://telegram.me/collablandbot?start=rec7X2YaPFmRQwie8_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
+							</Card>
 						</Col>
 					</Row>
 					<H2>Whale Channels (16,000 UWL)</H2>
 					<Row className="rowstyle">
 						<Col md={6} className="cardstyle">
-							<a href="https://telegram.me/collablandbot?start=recCuAx99IMyBekmz_-tpc" target="_blank" rel="noreferrer">
-								<Card style={{background: '#d93204'}}>Power Brokers</Card>
-							</a>
+							<Card>
+								<h3 style={{background: '#d93204'}}>Power Brokers</h3>
+								<Paragraph>Track the Ethereum activity of the top traders and influencers in DeFi. A curated list of addresses and identities maintained by a crypto researcher. Now with weekly data reports every Tuesday.</Paragraph>
+								<a style={{background: '#d93204'}} href="https://telegram.me/collablandbot?start=recCuAx99IMyBekmz_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
+							</Card>
 						</Col>
 					</Row>
 					<H2>Instructions</H2>
