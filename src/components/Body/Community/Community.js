@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import * as palette from '../../../palette.js';
 import Container from '../../Container/Container.js';
 import { H2, Paragraph } from '../../Typography/Typography.js';
-import Dashboard from '../../../assets/images/dashboard-image.png'
+import Dashboard from '../../../assets/images/community.png'
 
 const HeroWrapper = styled.div`
   background: ${palette.white};
@@ -46,7 +46,7 @@ const TextSection = styled.div`
 
 const ImageSection = styled.div`
   width: 50%;
-  padding-left: 40px;
+  padding-left: 60px;
   ${palette.md} {
     width: 100%;
     padding-left: 0px;
