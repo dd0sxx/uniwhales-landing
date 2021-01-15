@@ -112,14 +112,14 @@ const TelegramPage = () => {
 						<Col md={6} className="cardstyle">
 							<Card>
 								<h3 style={{background: '#165df0'}}>DAO</h3>
-								<Paragraph>The heart and soul of UniWhales - our community discussion with some of the brightest and creative minds of DeFi</Paragraph>
+								<Paragraph>Our community discussion - the brightest minds in DeFi</Paragraph>
 								<a href="https://telegram.me/collablandbot?start=recS4hkNHh2mZDpgx_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
 							</Card>
 						</Col>
 						<Col md={6} className="cardstyle">
 							<Card>
 								<h3 style={{background: '#007bff'}}>DAO Announcements</h3>
- 							<Paragraph>Need to catch up on the latest with our platform without reading through hundreds of messages? This is the place. Learn about new product features, content, and everything to get the most out of our platform.</Paragraph>
+ 							<Paragraph>Latest UniWhales product news and content.</Paragraph>
 								<a style={{background: '#007bff'}} href="https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMTkxOTUzODc3" target="_blank" rel="noreferrer">Join Channel</a>
 							</Card>
 						</Col>
@@ -127,7 +127,7 @@ const TelegramPage = () => {
 						<Col md={6} className="cardstyle">
 							<Card>
 								<h3 style={{background: '#cd04ff'}}>Volume Spikes</h3>
-								<Paragraph>This bot alerts high % volume spikes over 15 minutes relative to the last 24 hours of volume.</Paragraph>
+								<Paragraph>Volume spikes for tokens on 15m vs 24hr candles.</Paragraph>
 								<a style={{background: '#cd04ff'}} href="https://telegram.me/collablandbot?start=rec772lcdvYhmtDA2_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
 							</Card>
 						</Col>
@@ -135,7 +135,7 @@ const TelegramPage = () => {
 						<Col md={6} className="cardstyle">
 							<Card>
 								<h3 style={{background: '#f07b21'}}>LP Add/Remove</h3>
-								<Paragraph>Find where the whales are providing liquidity: alerts of any Uniswap liquidity adds/removes of $250,000 USD minimum.</Paragraph>
+								<Paragraph>Large LP liqudity adds and removes</Paragraph>
 								<a style={{background: '#f07b21'}} href="https://telegram.me/collablandbot?start=recGDRR7eb7mhrg58_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
 							</Card>
 						</Col>
@@ -143,7 +143,7 @@ const TelegramPage = () => {
 						<Col md={6} className="cardstyle">
 							<Card>
 								<h3 style={{background: '#00f0a4'}}>New/Unknown Tokens</h3>
-								<Paragraph>Find new tokens on Uniswap. Alerts for the first 2.5k, 5k, & then only 10k USD + swaps of a token. Alerts continue for the following 24 hours OR after reaching a limit of 50+ tx, whichever comes first.</Paragraph>
+								<Paragraph>Find new tokens on Uniswap. </Paragraph>
 								<a style={{background: '#00f0a4'}} href="https://telegram.me/collablandbot?start=recUcAhJAJLYPnvzp_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
 							</Card>
 						</Col>
