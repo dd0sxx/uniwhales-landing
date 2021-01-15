@@ -147,6 +147,13 @@ const TelegramPage = () => {
 								<a style={{background: '#00f0a4'}} href="https://telegram.me/collablandbot?start=recUcAhJAJLYPnvzp_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
 							</Card>
 						</Col>
+						<Col md={6} className="cardstyle">
+							<Card>
+								<h3 style={{background: '#00f0a4'}}>1inch Whales</h3>
+								<Paragraph>Tracking the large trades of 1inch DEX</Paragraph>
+								<a style={{background: '#00f0a4'}} href="https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMjA2MTEwNTg1" target="_blank" rel="noreferrer">Join Channel</a>
+							</Card>
+						</Col>
 						<Col id="whale-channels" md={6} className="cardstyle">
 							<Card>
 								<h3 style={{background: '#fa52a0'}}>SushiWhales</h3>
