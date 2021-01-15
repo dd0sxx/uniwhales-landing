@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Logo from '../assets/images/logo.svg'
+import Logo from '../assets/images/uniwhales-logo-no-outline.svg'
 import {ReactComponent as Telegram} from '../assets/images/telegram.svg'
 import Container from '../components/Container/Container.js'
 import * as palette from '../palette.js';
@@ -20,7 +20,7 @@ const Nav = styled.div`
   justify-content: space-between;
   padding: 20px 0;
   .logo {
-      height: 50px;
+      height: 60px;
   }
   ${palette.md} {
     padding: 15px 0;
@@ -28,7 +28,7 @@ const Nav = styled.div`
         display: none;
     }
     .logo {
-      height: 35px;
+      height: 50px;
   }
     }
 

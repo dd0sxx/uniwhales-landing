@@ -35,6 +35,7 @@ export const ButtonWrapperInverse = styled.a`
   transition: all 300ms ease-in-out;
   display: inline-block;
   background: ${palette.light_blue};
+  margin-top: ${props => props.margintop ? '10px' : ''};
   :hover {
       text-decoration: none;
       color: ${palette.white};
@@ -60,7 +61,7 @@ export const ButtonWrapperComingSoon = styled.div`
   }
 `;
 
-const Button = ({ text, href, inverse, disable }) => {
+const Button = ({ text, href, inverse, disable, margintop }) => {
     return (
         <>
         {!inverse && !disable && (
@@ -69,7 +70,7 @@ const Button = ({ text, href, inverse, disable }) => {
             </ButtonWrapper>
         )} 
         {inverse && (
-            <ButtonWrapperInverse href={href}>
+            <ButtonWrapperInverse href={href} margintop={margintop}>
                 {text}
             </ButtonWrapperInverse>
         )}
