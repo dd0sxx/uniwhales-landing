@@ -8,7 +8,7 @@ import Button from '../../Button/Button'
 
 
 const LevelsWrapper = styled.div`
-  background: ${palette.white};
+  background: ${palette.light_gray};
   width: 100%;
   padding: 100px 0;
   ${palette.md} {
@@ -36,6 +36,7 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
+  background: #fff;
 
   h2 {
       margin: 30px 0 25px;
@@ -149,12 +150,13 @@ const Levels = () => {
                             </ListItem>
                         </List>
                         <div className="buttonbottom">
-                            <Button inverse text="Get UWL" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
+                            <Button inverse text="Buy UWL on Uniswap" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
+                            <Button margintop inverse text="Buy UWL on Sushiswap" href="https://sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" />
                         </div>
                     </Card>
                     <Card>
                         <H2>Whale</H2>
-                        <H3>First Channel Live!</H3>
+                        <H3>Hold 16k UWL</H3>
                         <List>
                             <ListItem>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
@@ -175,7 +177,9 @@ const Levels = () => {
                             
                         </List>
                         <div className="buttonbottom">
-                            <Button inverse text="Get UWL" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
+                        <Button inverse text="Buy UWL on Uniswap" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
+                            <Button margintop inverse text="Buy UWL on Sushiswap" href="https://sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" />
+
                         </div>
                     </Card>
                 </InnerWrapper>

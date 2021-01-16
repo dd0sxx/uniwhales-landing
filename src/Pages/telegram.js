@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import * as palette from '../palette.js';
 import Container from '../components/Container/Container.js';
@@ -55,14 +55,21 @@ const Card = styled.div`
   margin-bottom: 30px;
   -webkit-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.06); 
   box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.06);
+  transition: all 300ms ease-in-out;
 
   h3 {
 	  padding: 20px 0;
 	  color: #fff;
 	  font-weight: bold;
 	  border-radius: 10px;
-	  margin-bottom: 20px;
 	  font-size: 18px;
+	  margin-bottom: 0;
+	  cursor: pointer;
+	  user-select: none;
+  }
+
+  p {
+	  margin-top: 20px;
   }
 
   a {
@@ -86,6 +93,14 @@ const Card = styled.div`
   }
   }
 
+  .non-active-item {
+	  display: none;
+  }
+
+  .active-item {
+	  display: inline-block;
+  }
+
 
   ${palette.md} {
 	padding: 20px;
@@ -96,6 +111,71 @@ const Card = styled.div`
 
 
 const TelegramPage = () => {
+
+	const channels = [
+		{
+			name: 'DAO',
+			description: 'The heart and soul of UniWhales - our community discussion with some of the brightest and creative minds of DeFi',
+			color: '#165df0',
+			link: 'https://telegram.me/collablandbot?start=recS4hkNHh2mZDpgx_-tpc'
+		},
+		{
+			name: 'DAO Announcements',
+			description: 'Need to catch up on the latest with our platform without reading through hundreds of messages? This is the place. Learn about new product features, content, and everything to get the most out of our platform.',
+			color: '#007bff',
+			link: 'https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMTkxOTUzODc3'
+		},
+		{
+			name: 'Volume Spikes',
+			description: 'This bot alerts high % volume spikes over 15 minutes relative to the last 24 hours of volume.',
+			color: '#cd04ff',
+			link: 'https://telegram.me/collablandbot?start=rec772lcdvYhmtDA2_-tpc'
+		},
+		{
+			name: 'LP Add/Remove',
+			description: 'Find where the whales are providing liquidity: alerts of any Uniswap liquidity adds/removes of $250,000 USD minimum.',
+			color: '#f07b21',
+			link: 'https://telegram.me/collablandbot?start=recGDRR7eb7mhrg58_-tpc'
+		},
+		{
+			name: 'New/Unknown Tokens',
+			description: 'Find new tokens on Uniswap. Alerts for the first 2.5k, 5k, & then only 10k USD + swaps of a token. Alerts continue for the following 24 hours OR after reaching a limit of 50+ tx, whichever comes first.',
+			color: '#00f0a4',
+			link: 'https://telegram.me/collablandbot?start=recUcAhJAJLYPnvzp_-tpc'
+		},
+		{
+			name: '1inch Whales',
+			description: 'Tracking the large trades of 1inch DEX',
+			color: '#272a30',
+			link: 'https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMjA2MTEwNTg1'
+		},
+		{
+			name: 'SushiWhales',
+			description: 'Tracking the large trades of SushiSwap',
+			color: '#fa52a0',
+			link: 'https://telegram.me/collablandbot?start=rec7X2YaPFmRQwie8_-tpc'
+		},
+	]
+
+	const whale_channels = [
+		{
+			name: 'Power Brokers',
+			description: 'Track the Ethereum activity of the top traders and influencers in DeFi. A curated list of addresses and identities maintained by a crypto researcher. Now with weekly data reports every Tuesday.',
+			color: '#d93204',
+			link: 'https://telegram.me/collablandbot?start=recCuAx99IMyBekmz_-tpc'
+		},
+	]
+
+	const [activeID, setActiveID] = useState("")
+
+	const handleClick = (id) => {
+		if (id === activeID) {
+			setActiveID("")
+		}
+		else {
+		setActiveID(id)
+		}
+	}
 	
 	return (
 		<>
@@ -106,71 +186,37 @@ const TelegramPage = () => {
 					<H2>How to Join - Premium Telegram Alerts and DAO</H2>
 					<Paragraph>If you have 5000 or more UWL tokens (<a href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" target="_blank" rel="noreferrer">Get UWL on Uniswap</a>), you can now start using the premium Telegram alert features and participate in the community DAO. </Paragraph>
 					<br></br>
-					<Paragraph marginBottom><b>Note:</b> Each of the Telegram channels listed below has a more detailed description of its functionality hovering over the ? 👇👇</Paragraph>
+					<Paragraph marginBottom><b>Note:</b> Each of the Telegram channels listed below has a more detailed description of its functionality if you click the box 👇👇</Paragraph>
 					<H2>Premium Channels</H2>
 					<Row className="rowstyle">
-						<Col md={6} className="cardstyle">
-							<Card>
-								<h3 style={{background: '#165df0'}}>DAO</h3>
-								<Paragraph>Our community discussion - the brightest minds in DeFi</Paragraph>
-								<a href="https://telegram.me/collablandbot?start=recS4hkNHh2mZDpgx_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
-							</Card>
-						</Col>
-						<Col md={6} className="cardstyle">
-							<Card>
-								<h3 style={{background: '#007bff'}}>DAO Announcements</h3>
- 							<Paragraph>Latest UniWhales product news and content.</Paragraph>
-								<a style={{background: '#007bff'}} href="https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMTkxOTUzODc3" target="_blank" rel="noreferrer">Join Channel</a>
-							</Card>
-						</Col>
 
-						<Col md={6} className="cardstyle">
-							<Card>
-								<h3 style={{background: '#cd04ff'}}>Volume Spikes</h3>
-								<Paragraph>Volume spikes for tokens on 15m vs 24hr candles.</Paragraph>
-								<a style={{background: '#cd04ff'}} href="https://telegram.me/collablandbot?start=rec772lcdvYhmtDA2_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
-							</Card>
-						</Col>
 
-						<Col md={6} className="cardstyle">
-							<Card>
-								<h3 style={{background: '#f07b21'}}>LP Add/Remove</h3>
-								<Paragraph>Large LP liqudity adds and removes</Paragraph>
-								<a style={{background: '#f07b21'}} href="https://telegram.me/collablandbot?start=recGDRR7eb7mhrg58_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
-							</Card>
-						</Col>
+						{channels.map((channel) => {
+						return (
+							<Col md={6} className="cardstyle">
+								<Card onClick={() => {handleClick(channel.name)}}> 
+									<h3 style={{background: channel.color}}>{channel.name}</h3>
+									<Paragraph className={(channel.name === activeID ? 'active-item' : 'non-active-item')}>{channel.description}</Paragraph>
+									<a className={(channel.name === activeID ? 'active-item' : 'non-active-item')} style={{background: channel.color}} href={channel.link} target="_blank" rel="noreferrer">Join Channel</a>
+								</Card>
+							</Col>
+							)
+							})}
 
-						<Col md={6} className="cardstyle">
-							<Card>
-								<h3 style={{background: '#00f0a4'}}>New/Unknown Tokens</h3>
-								<Paragraph>Find new tokens on Uniswap. </Paragraph>
-								<a style={{background: '#00f0a4'}} href="https://telegram.me/collablandbot?start=recUcAhJAJLYPnvzp_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
-							</Card>
-						</Col>
-						<Col md={6} className="cardstyle">
-							<Card>
-								<h3 style={{background: '#272a30'}}>1inch Whales</h3>
-								<Paragraph>Tracking the large trades of 1inch DEX</Paragraph>
-								<a style={{background: '#272a30'}} href="https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMjA2MTEwNTg1" target="_blank" rel="noreferrer">Join Channel</a>
-							</Card>
-						</Col>
-						<Col id="whale-channels" md={6} className="cardstyle">
-							<Card>
-								<h3 style={{background: '#fa52a0'}}>SushiWhales</h3>
-								<Paragraph>Tracking the large trades of SushiSwap</Paragraph>
-								<a style={{background: '#fa52a0'}} href="https://telegram.me/collablandbot?start=rec7X2YaPFmRQwie8_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
-							</Card>
-						</Col>
 					</Row>
 					<H2>Whale Channels (16,000 UWL)</H2>
 					<Row className="rowstyle">
-						<Col md={6} className="cardstyle">
-							<Card>
-								<h3 style={{background: '#d93204'}}>Power Brokers</h3>
-								<Paragraph>Track the Ethereum activity of the top traders and influencers in DeFi. A curated list of addresses and identities maintained by a crypto researcher. Now with weekly data reports every Tuesday.</Paragraph>
-								<a style={{background: '#d93204'}} href="https://telegram.me/collablandbot?start=recCuAx99IMyBekmz_-tpc" target="_blank" rel="noreferrer">Join Channel</a>
-							</Card>
-						</Col>
+					{whale_channels.map((channel) => {
+						return (
+							<Col md={6} className="cardstyle">
+								<Card onClick={() => {handleClick(channel.name)}}> 
+									<h3 style={{background: channel.color}}>{channel.name}</h3>
+									<Paragraph className={(channel.name === activeID ? 'active-item' : 'non-active-item')}>{channel.description}</Paragraph>
+									<a className={(channel.name === activeID ? 'active-item' : 'non-active-item')} style={{background: channel.color}} href={channel.link} target="_blank" rel="noreferrer">Join Channel</a>
+								</Card>
+							</Col>
+							)
+							})}
 					</Row>
 					<H2>Instructions</H2>
 					<ol>

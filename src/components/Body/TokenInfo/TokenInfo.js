@@ -4,7 +4,7 @@ import * as palette from '../../../palette.js';
 import Container from '../../Container/Container.js';
 import { H2, Paragraph } from '../../Typography/Typography.js';
 import Button from '../../Button/Button'
-import Piechart from '../../../assets/images/piechart.png'
+import Piechart from '../../../assets/images/piechart2.png'
 import Shipimg from '../../../assets/images/ship.png'
 
 const TokenWrapper = styled.div`
