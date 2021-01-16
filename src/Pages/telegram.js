@@ -190,6 +190,7 @@ const TelegramPage = () => {
 					<H2>Premium Channels</H2>
 					<Row className="rowstyle">
 
+
 						{channels.map((channel) => {
 						return (
 							<Col md={6} className="cardstyle">
@@ -201,6 +202,7 @@ const TelegramPage = () => {
 							</Col>
 							)
 							})}
+
 					</Row>
 					<H2>Whale Channels (16,000 UWL)</H2>
 					<Row className="rowstyle">
