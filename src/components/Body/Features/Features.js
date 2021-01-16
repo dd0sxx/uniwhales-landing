@@ -67,19 +67,19 @@ const Features = () => {
                 <InnerWrapper>
                     <Col>
                         <img src={Dashboard} alt="dashboard" />
-                        <H3>Realtime dashboard</H3>
-                        <Paragraph>Our robust dashboard displays realtime Uniswap trading data in an easy to read interface</Paragraph>
+                        <H3>Webapp Dashboard</H3>
+                        <Paragraph>Real time monitoring of tokens, whale addresses and their DeFi movements</Paragraph>
                     </Col>
                     <Col>
                         <img src={Address} alt="address finder" />
-                        <H3>Address filtering</H3>
-                        <Paragraph>Found a whale address? Keep an eye on it with our address filtering feature</Paragraph>
+                        <H3>Address  filtering</H3>
+                        <Paragraph>Analyze whale data filtered by date and tx size. Links to Zapper, DeBank etc </Paragraph>
                         <div className="premium">Pro</div>
                     </Col>
                     <Col>
                         <img src={Telegram} alt="dashboard" />
                         <H3>Telegram alerts</H3>
-                        <Paragraph>Latest market movements are broadcasted to our automated Telegram channels</Paragraph>
+                        <Paragraph>Channels for swaps, liquidity add/removes, and new token alerts</Paragraph>
                     </Col>
                 </InnerWrapper>
             </Container>

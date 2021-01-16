@@ -117,7 +117,7 @@ const Levels = () => {
                             </ListItem>
                             <ListItem>
                                 <img src={Checkmark} alt="checkmark" />
-                                Access to main Telegram channel
+                                Access to main UniWhales + SushiWhales channels
                             </ListItem>
                         </List>
                         <div className="buttonbottom">
@@ -134,7 +134,7 @@ const Levels = () => {
                             </ListItem>
                             <ListItem>
                                 <img src={Checkmark} alt="checkmark" />
-                                Token name and address filters
+                                Token name, address filters, historical data
                             </ListItem>
                             <ListItem>
                                 <img src={Checkmark} alt="checkmark" />
@@ -142,7 +142,7 @@ const Levels = () => {
                             </ListItem>
                             <ListItem>
                                 <img src={Checkmark} alt="checkmark" />
-                                Robust historical data
+                               The DAO
                             </ListItem>
                             <ListItem>
                                 <img src={Checkmark} alt="checkmark" />
@@ -151,7 +151,7 @@ const Levels = () => {
                         </List>
                         <div className="buttonbottom">
                             <Button inverse text="Buy UWL on Uniswap" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
-                            <Button margintop inverse text="Buy UWL on Sushiswap" href="https://sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" />
+                            <Button margintop inverse text="Buy UWL on SushiSwap" href="https://sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" />
                         </div>
                     </Card>
                     <Card>
@@ -160,7 +160,7 @@ const Levels = () => {
                         <List>
                             <ListItem>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
-                                Everything in Pro plus more data sorting and customized signals based on DAO group feedback
+                                Everything in Pro plus weekly reports, additional channels, and dashboards.
                             </ListItem>
                             <ListItem>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
@@ -178,7 +178,7 @@ const Levels = () => {
                         </List>
                         <div className="buttonbottom">
                         <Button inverse text="Buy UWL on Uniswap" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
-                            <Button margintop inverse text="Buy UWL on Sushiswap" href="https://sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" />
+                            <Button margintop inverse text="Buy UWL on SushiSwap" href="https://sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" />
 
                         </div>
                     </Card>
