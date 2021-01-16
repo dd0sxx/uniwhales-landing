@@ -61,16 +61,16 @@ const Community = () => {
     return (
         <HeroWrapper id="about">
             <Container>
-              <H2>More than a dashboard</H2>
+              <H2>Learn from the top minds in DeFi</H2>
                 <InnerWrapper>
                     <TextSection>
                         
-                        <Paragraph marginBottom >There is more to UniWhales than the dashboard and Telegram alerts. You'll also gain access to one of the best Defi communities out there! When you join our community you can expect:</Paragraph>
+                        <Paragraph marginBottom >There is more to UniWhales than the dashboard and Telegram alerts. To stay on top of DeFi, join our DAO, a DeFi analytics community with some of the top minds in crypto:</Paragraph>
                         <ul>
-                          <li>Informative webinars with some of the best names in the space</li>
-                          <li>Access to an amazing community with a large wealth of knowledge</li>
-                          <li>Ability to request features and share ideas</li>
-                          <li>Tips, tricks and dank memes</li>
+                          <li>Informative, fun interactive webinars with builders + traders</li>
+                          <li>Access to a dynamic, curated community with a large wealth of DeFi knowledge </li>
+                          <li>Ability to request and vote on new to make the platform more useful for you</li>
+                          <li>Tips, tricks, the latest token, news, data analysis, and some killer memes</li>
                         </ul>  
                     </TextSection>
                     <ImageSection>

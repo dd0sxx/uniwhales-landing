@@ -100,7 +100,7 @@ const Testimonials = () => {
                       <img src={Redphone} alt="Redphone" />
                       <Quote>"I think they're building some pretty BA tools for traders. I use it regularly to track transactions by the big-boi/big-gurl wallets"</Quote>
                       <Author>Red Phone Crypto</Author>
-                      <Title>Crypto storyteller</Title>
+                      <Title>Crypto investor/philosopher</Title>
                     </Col>
                 </InnerWrapper>
             </Container>

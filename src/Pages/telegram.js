@@ -184,7 +184,7 @@ const TelegramPage = () => {
 			<Wrapper id="features">
 				<Container lesswidth>
 					<H2>How to Join - Premium Telegram Alerts and DAO</H2>
-					<Paragraph>If you have 5000 or more UWL tokens (<a href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" target="_blank" rel="noreferrer">Get UWL on Uniswap</a>), you can now start using the premium Telegram alert features and participate in the community DAO. </Paragraph>
+					<Paragraph>If you have 5000 or more UWL tokens (<a href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" target="_blank" rel="noreferrer"> Uniswap</a>-<a href="https://sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" target="_blank" rel="noreferrer"> SushiSwap</a>), you can now start using the premium Telegram alert features and participate in the community DAO. </Paragraph>
 					<br></br>
 					<Paragraph marginBottom><b>Note:</b> Each of the Telegram channels listed below has a more detailed description of its functionality if you click the box 👇👇</Paragraph>
 					<H2>Premium Channels</H2>
