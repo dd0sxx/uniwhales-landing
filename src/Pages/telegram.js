@@ -153,7 +153,7 @@ const TelegramPage = () => {
 			name: 'SushiWhales',
 			description: 'Tracking the large trades of SushiSwap',
 			color: '#fa52a0',
-			link: 'https://telegram.me/collablandbot?start=rec7X2YaPFmRQwie8_-tpc'
+			link: 'https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxNDk5NzkxMTY2'
 		},
 	]
 
