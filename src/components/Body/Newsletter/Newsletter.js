@@ -22,7 +22,7 @@ const Hero = () => {
         <Wrapper>
             <Container>
                 <H2 nomarginBottom>Stay in the loop</H2>
-                <Paragraph>Join our email list for Uniswap reports/analysis and upgrades to the UniWhales ecosystem</Paragraph>
+                <Paragraph>Join our email list for latest developments in the UniWhales ecosystem</Paragraph>
                 <Button inverse text="Join" href="https://docs.google.com/forms/d/e/1FAIpQLSfm2lwbKO4C58CG4KReY-GOLLuDM4S8oobXr1VLAGTNkYhB5g/viewform?usp=sf_link" />
             </Container>
         </Wrapper>

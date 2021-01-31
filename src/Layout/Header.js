@@ -121,8 +121,9 @@ const Header = () => {
                         <TelegramLink href="https://t.me/uniwhales">
                             <Telegram />
                         </TelegramLink>
-                        <Button2 className="hide" href="https://t.me/uniwhales">Telegram (Free)</Button2>
-                        <Button2 className="hide" href="/telegram">Premium / Whale</Button2>
+                        <Button2 className="hide" href="https://t.me/uniwhales" target="_blank">TG UniSwap</Button2>
+                        <Button2 className="hide" href="https://t.me/sushiwhale" target="_blank">SushiSwap</Button2>
+                        <Button2 className="hide" href="/telegram">Pro / Whale</Button2>
                         <Button href="https://app.uniwhales.io/">Launch App</Button>
                     </div>
                 </Nav>

@@ -85,8 +85,10 @@ const Hero = () => {
                     <TextSection>
                         <H1 inverse >A DeFi Analytics Community</H1>
                         <Paragraph inverse marginBottom >Track the whales (DeFi market movers) with realtime data. See large volume transactions and traders on Uniswap, SushiSwap, and 1inch. First class community (DAO) - Learn more 👇 👇</Paragraph>
-                        <Button text="Join the Telegram Channel" href="https://t.me/uniwhales" />
-                        <TelegramText>5,700+ members</TelegramText>
+                        <Button text="Join UniWhales (Free)" href="https://t.me/uniwhales" target="_blank"/>
+                        <TelegramText>5800+ members</TelegramText>
+                        <Button text="Join SushiWhales (Free)" href="https://t.me/sushiwhale" target="_blank"/>
+                        <TelegramText>450+ members</TelegramText>
                     </TextSection>
                     <ImageSection>
                         <img src={Dashboard} alt="Uniwhales Dashboard" />

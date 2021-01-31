@@ -88,7 +88,7 @@ const Testimonials = () => {
                       <img src={Santiago} alt="Santiago" />
                       <Quote>"Beyond being a super useful analytics tool, it’s a brilliant on-chain subscription monetization model"</Quote>
                       <Author>Santiago R Santos</Author>
-                      <Title>Partner @Paraficapital</Title>
+                      <Title>Partner @ParaFi Capital</Title>
                     </Col>
                     <Col>
                       <img src={Guto} alt="Guto" />
