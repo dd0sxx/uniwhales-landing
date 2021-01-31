@@ -160,15 +160,14 @@ const Levels = () => {
                         <List>
                             <ListItem>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
-                                Everything in Pro plus weekly reports, additional channels, and dashboards.
+                                Everything in Pro plus  additional channels, reporting and dashboards.
                             </ListItem>
                             <ListItem>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
-                                Power broker channel&nbsp;<a href="/telegram#whale-channels">now available</a>
-                            </ListItem>
-                            <ListItem style={{filter: 'blur(3px)', userSelect: 'none'}}>
+                                Power Brokers channel&nbsp;<a href="/telegram#whale-channels">now available</a>
+                            </ListItem><ListItem>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
-                                Hey you're not supposed to see this
+                                RedPhonshipSaurus - the Ultimate DeFi Dashboard coming soon
                             </ListItem>
                             <ListItem style={{filter: 'blur(3px)', userSelect: 'none'}}>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
