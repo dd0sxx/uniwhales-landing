@@ -6,6 +6,8 @@ import { H1, Paragraph } from '../../Typography/Typography.js';
 import Dashboard from '../../../assets/images/dashboard-image.png'
 import Wave from '../../../assets/images/wave-background.png'
 import Button from '../../Button/Button'
+import Coindesk from '../../../assets/images/coindesk-logo.svg'
+import Decrypt from '../../../assets/images/decrypt-logo.png'
 
 const HeroWrapper = styled.div`
   background: ${palette.dark_blue};
@@ -76,6 +78,40 @@ const ImageSection = styled.div`
   }
 `;
 
+const FeaturedCtn = styled.div`
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+
+  h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+  }
+
+  a {
+    width: 50%;
+    text-align: center;
+  }
+
+  img {
+    width: 200px;
+    opacity: 0.6;
+    ${palette.md} {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+`;
+
 const Hero = () => {
     return (
         <>
@@ -95,6 +131,17 @@ const Hero = () => {
                         <img src={Dashboard} alt="Uniwhales Dashboard" />
                     </ImageSection>
                 </InnerWrapper>
+                <FeaturedCtn>
+                  <h3>Featured in:</h3>
+                  <div>
+                  <a href="https://www.coindesk.com/if-whales-move-the-market-uniwhales-is-the-whale-whisperer" target="_blank" rel="noreferrer">
+                    <img src={Coindesk} alt="coindesk" />
+                  </a>
+                  <a href="https://decrypt.co/50209/this-app-tracks-whale-moves-on-ethereum-based-uniswap" target="_blank" rel="noreferrer">
+                    <img src={Decrypt} alt="Decrypt" />
+                  </a>
+                  </div>
+                </FeaturedCtn>
             </Container>
         </HeroWrapper>
         <WaveSection>
