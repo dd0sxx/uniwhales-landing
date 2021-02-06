@@ -120,7 +120,7 @@ const Hero = () => {
                 <InnerWrapper>
                     <TextSection>
                         <H1 inverse >Lower your DeFi brain fatigue</H1>
-                        <Paragraph inverse marginBottom >We curate DEX data for our token holding members. Whale tracking on Uniswap, SushiSwap, and 1inch. First class  (DAO). Join our free channels for a preview👇 👇</Paragraph>
+                        <Paragraph inverse marginBottom >We curate whale data. Tracking on Uniswap, SushiSwap, and 1inch. First class  (DAO). Join our free channels for a preview👇 👇</Paragraph>
                         <Button text="Join UniWhales (Free)" href="https://t.me/uniwhales" target="_blank"/>
                         <TelegramText>7000+ members</TelegramText>
                         <H1 inverse></H1>
