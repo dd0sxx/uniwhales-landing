@@ -151,7 +151,7 @@ const Levels = () => {
                         </List>
                         <div className="buttonbottom">
                             <Button inverse text="Buy UWL on Uniswap" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
-                            <Button margintop inverse text="Buy UWL on SushiSwap" href="https://sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" />
+                            <Button margintop inverse text="Buy UWL on SushiSwap" href="https://app.sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" />
                         </div>
                     </Card>
                     <Card>
@@ -177,7 +177,7 @@ const Levels = () => {
                         </List>
                         <div className="buttonbottom">
                         <Button inverse text="Buy UWL on Uniswap" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
-                            <Button margintop inverse text="Buy UWL on SushiSwap" href="https://sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" />
+                            <Button margintop inverse text="Buy UWL on SushiSwap" href="https://app.sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" />
 
                         </div>
                     </Card>
