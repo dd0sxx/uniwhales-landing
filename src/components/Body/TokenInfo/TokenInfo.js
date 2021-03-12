@@ -76,7 +76,7 @@ const TokenInfo = () => {
                         <img src={Piechart} alt="pie chart" />
                     </PieChartCtn>
                     <Button text="Get UWL" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
-                    <Paragraph inverse>Team reserve (15%) locked for 6 months | Uniswap LP (25%) locked for 6 months <a className="address" href="https://v2.unicrypt.network/pair/0x9d4b552C992ee3B863F3b51E95E46eCf38c21429">(Unicrypt)</a><br />Circulating supply: 8,500,000 | Total supply: 10,000,000<br/>UWL Token Contract: <a className="address" href="https://etherscan.io/token/0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5">0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5</a><br/>UWL private sale price - 1 ETH = 10,000 UWL | UWL initial public sale price - 1 ETH = 8,000 UWL</Paragraph>
+                    <Paragraph inverse>Team reserve (15%) locked for 6 months | Uniswap LP (25%) locked for 6 months <a className="address" href="https://unicrypt.network/pair/0x9d4b552C992ee3B863F3b51E95E46eCf38c21429">(Unicrypt)</a><br />Circulating supply: 8,500,000 | Total supply: 10,000,000<br/>UWL Token Contract: <a className="address" href="https://etherscan.io/token/0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5">0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5</a><br/>UWL private sale price - 1 ETH = 10,000 UWL | UWL initial public sale price - 1 ETH = 8,000 UWL</Paragraph>
                 </InnerWrapper>
             </Container>
         </TokenWrapper>
