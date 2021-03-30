@@ -155,6 +155,13 @@ const TelegramPage = () => {
 			color: '#fa52a0',
 			link: 'https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxNDk5NzkxMTY2'
 		},
+		{
+			name: 'VC Deal Tracker',
+			description: 'Tracking VC investments into DeFi projects',
+			color: '#228B22',
+			link: 'https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMDc4OTkyMDk5'
+		},
+	
 	]
 
 	const whale_channels = [
