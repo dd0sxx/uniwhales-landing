@@ -93,7 +93,7 @@ const Testimonials = () => {
                     <Col>
                       <img src={Guto} alt="Guto" />
                       <Quote>"Uniwhales is not only a superb tool, but a truly outstanding community"</Quote>
-                      <Author>Guto Martinez</Author>
+                      <Author>Guto Martino</Author>
                       <Title>Marketing Manager @HathorNetwork</Title>
                     </Col>
                     <Col>
