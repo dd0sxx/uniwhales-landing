@@ -171,7 +171,7 @@ const Levels = () => {
                             </ListItem>
                             <ListItem>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />
-                                NFT Brokers byGMoneyNFT, coming soon .
+                                NFT Whales byGMoneyNFT .
                             </ListItem>
                             <ListItem style={{filter: 'blur(3px)', userSelect: 'none'}}>
                                 <img src={Checkmark} style={{filter: 'grayscale(100%)'}} alt="checkmark" />

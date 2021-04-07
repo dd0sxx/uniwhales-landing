@@ -171,6 +171,12 @@ const TelegramPage = () => {
 			color: '#d93204',
 			link: 'https://telegram.me/collablandbot?start=recCuAx99IMyBekmz_-tpc'
 		},
+		{
+			name: 'NFT Whales (GMoneyNFT)',
+			description: 'A curated list by GMoney NFT of the best NFT traders/collectors. Tracking NFT mints, trades, transfers, and burns.',
+			color: '#165df0',
+			link: 'https://telegram.me/collablandbot?start=VFBDI1RFTCNDT01NIy0xMDAxMjIzODk4MTQ2'
+		},
 	]
 
 	const [activeID, setActiveID] = useState("")
