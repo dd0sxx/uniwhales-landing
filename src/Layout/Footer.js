@@ -105,7 +105,7 @@ const Footer = () => {
                     </div>
                     <div className="linkcol">
                         <Button href="https://app.uniwhales.io/" text="Launch App" />
-                        <Button text="Get UWL" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
+                        <Button text="Get UWL" href="https://v2.info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
                     </div>
                 </FooterCtn>
                 <Disclaimer>$UWL is a utility token used to gain membership to the UniWhales analytics platform. Extreme changes in price may occur at any time, resulting in a potential loss of value, complete or partial loss of purchasing power, and difficulty or a complete inability to sell or exchange your digital currency. UniWhales shall be under no obligation to purchase or to broker the purchase back from you of your cryptocurrency in circumstances where there is no viable market for the purchase of the same. None of the content published on this site constitutes a recommendation that any particular cryptocurrency, portfolio of cryptocurrencies, transaction or investment strategy is suitable for any specific person. None of the information providers or their affiliates will advise you personally concerning the nature, potential, value or suitability of any particular cryptocurrency, portfolio of cryptocurrencies, transaction, investment strategy or other matter. The products and services presented on this website may only be purchased in jurisdictions in which their marketing and distribution are authorized.</Disclaimer>

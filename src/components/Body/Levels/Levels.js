@@ -150,8 +150,8 @@ const Levels = () => {
                             </ListItem>
                         </List>
                         <div className="buttonbottom">
-                            <Button inverse text="Buy UWL on Uniswap" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
-                            <Button margintop inverse text="Buy UWL on SushiSwap" href="https://app.sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" />
+                            <Button inverse text="Buy UWL on Uniswap" href="https://v2.info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
+                            <Button margintop inverse text="Buy UWL on SushiSwap" href="https://analytics.sushi.com/tokens/0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5" />
                         </div>
                     </Card>
                     <Card>
@@ -180,8 +180,8 @@ const Levels = () => {
                             
                         </List>
                         <div className="buttonbottom">
-                        <Button inverse text="Buy UWL on Uniswap" href="https://info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
-                            <Button margintop inverse text="Buy UWL on SushiSwap" href="https://app.sushiswap.fi/pair/0x0040a2cebc65894bc2cfb57565f9acfa33fab137" />
+                        <Button inverse text="Buy UWL on Uniswap" href="https://v2.info.uniswap.org/pair/0x9d4b552c992ee3b863f3b51e95e46ecf38c21429" />
+                            <Button margintop inverse text="Buy UWL on SushiSwap" href="https://analytics.sushi.com/tokens/0xdbdd6f355a37b94e6c7d32fef548e98a280b8df5" />
 
                         </div>
                     </Card>
